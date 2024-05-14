@@ -181,6 +181,32 @@ bs2_default_padded_checksummed_asm/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
 .PHONY : bs2_default_padded_checksummed_asm/fast
 
+#=============================================================================
+# Target rules for targets named PioasmBuild
+
+# Build rule for target.
+PioasmBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PioasmBuild
+.PHONY : PioasmBuild
+
+# fast build rule for target.
+PioasmBuild/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build
+.PHONY : PioasmBuild/fast
+
+#=============================================================================
+# Target rules for targets named cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+
+# Build rule for target.
+cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+.PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+
+# fast build rule for target.
+cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
+.PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
+
 communication/communication.obj: communication/communication.cpp.obj
 .PHONY : communication/communication.obj
 
@@ -229,6 +255,30 @@ eeprom/eprom.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/eeprom/eprom.cpp.s
 .PHONY : eeprom/eprom.cpp.s
 
+komendy_AT/checkPins.obj: komendy_AT/checkPins.cpp.obj
+.PHONY : komendy_AT/checkPins.obj
+
+# target to build an object file
+komendy_AT/checkPins.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.obj
+.PHONY : komendy_AT/checkPins.cpp.obj
+
+komendy_AT/checkPins.i: komendy_AT/checkPins.cpp.i
+.PHONY : komendy_AT/checkPins.i
+
+# target to preprocess a source file
+komendy_AT/checkPins.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.i
+.PHONY : komendy_AT/checkPins.cpp.i
+
+komendy_AT/checkPins.s: komendy_AT/checkPins.cpp.s
+.PHONY : komendy_AT/checkPins.s
+
+# target to generate assembly for a file
+komendy_AT/checkPins.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.s
+.PHONY : komendy_AT/checkPins.cpp.s
+
 komendy_AT/komendyAT.obj: komendy_AT/komendyAT.cpp.obj
 .PHONY : komendy_AT/komendyAT.obj
 
@@ -252,6 +302,654 @@ komendy_AT/komendyAT.s: komendy_AT/komendyAT.cpp.s
 komendy_AT/komendyAT.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/komendyAT.cpp.s
 .PHONY : komendy_AT/komendyAT.cpp.s
+
+lib/FreeRTOS-Kernel/croutine.obj: lib/FreeRTOS-Kernel/croutine.c.obj
+.PHONY : lib/FreeRTOS-Kernel/croutine.obj
+
+# target to build an object file
+lib/FreeRTOS-Kernel/croutine.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.obj
+.PHONY : lib/FreeRTOS-Kernel/croutine.c.obj
+
+lib/FreeRTOS-Kernel/croutine.i: lib/FreeRTOS-Kernel/croutine.c.i
+.PHONY : lib/FreeRTOS-Kernel/croutine.i
+
+# target to preprocess a source file
+lib/FreeRTOS-Kernel/croutine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.i
+.PHONY : lib/FreeRTOS-Kernel/croutine.c.i
+
+lib/FreeRTOS-Kernel/croutine.s: lib/FreeRTOS-Kernel/croutine.c.s
+.PHONY : lib/FreeRTOS-Kernel/croutine.s
+
+# target to generate assembly for a file
+lib/FreeRTOS-Kernel/croutine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.s
+.PHONY : lib/FreeRTOS-Kernel/croutine.c.s
+
+lib/FreeRTOS-Kernel/event_groups.obj: lib/FreeRTOS-Kernel/event_groups.c.obj
+.PHONY : lib/FreeRTOS-Kernel/event_groups.obj
+
+# target to build an object file
+lib/FreeRTOS-Kernel/event_groups.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.obj
+.PHONY : lib/FreeRTOS-Kernel/event_groups.c.obj
+
+lib/FreeRTOS-Kernel/event_groups.i: lib/FreeRTOS-Kernel/event_groups.c.i
+.PHONY : lib/FreeRTOS-Kernel/event_groups.i
+
+# target to preprocess a source file
+lib/FreeRTOS-Kernel/event_groups.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.i
+.PHONY : lib/FreeRTOS-Kernel/event_groups.c.i
+
+lib/FreeRTOS-Kernel/event_groups.s: lib/FreeRTOS-Kernel/event_groups.c.s
+.PHONY : lib/FreeRTOS-Kernel/event_groups.s
+
+# target to generate assembly for a file
+lib/FreeRTOS-Kernel/event_groups.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.s
+.PHONY : lib/FreeRTOS-Kernel/event_groups.c.s
+
+lib/FreeRTOS-Kernel/list.obj: lib/FreeRTOS-Kernel/list.c.obj
+.PHONY : lib/FreeRTOS-Kernel/list.obj
+
+# target to build an object file
+lib/FreeRTOS-Kernel/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.obj
+.PHONY : lib/FreeRTOS-Kernel/list.c.obj
+
+lib/FreeRTOS-Kernel/list.i: lib/FreeRTOS-Kernel/list.c.i
+.PHONY : lib/FreeRTOS-Kernel/list.i
+
+# target to preprocess a source file
+lib/FreeRTOS-Kernel/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.i
+.PHONY : lib/FreeRTOS-Kernel/list.c.i
+
+lib/FreeRTOS-Kernel/list.s: lib/FreeRTOS-Kernel/list.c.s
+.PHONY : lib/FreeRTOS-Kernel/list.s
+
+# target to generate assembly for a file
+lib/FreeRTOS-Kernel/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.s
+.PHONY : lib/FreeRTOS-Kernel/list.c.s
+
+lib/FreeRTOS-Kernel/portable/MemMang/heap_4.obj: lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+.PHONY : lib/FreeRTOS-Kernel/portable/MemMang/heap_4.obj
+
+# target to build an object file
+lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+.PHONY : lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+
+lib/FreeRTOS-Kernel/portable/MemMang/heap_4.i: lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+.PHONY : lib/FreeRTOS-Kernel/portable/MemMang/heap_4.i
+
+# target to preprocess a source file
+lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+.PHONY : lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+
+lib/FreeRTOS-Kernel/portable/MemMang/heap_4.s: lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+.PHONY : lib/FreeRTOS-Kernel/portable/MemMang/heap_4.s
+
+# target to generate assembly for a file
+lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+.PHONY : lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+
+lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj: lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+.PHONY : lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj
+
+# target to build an object file
+lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+.PHONY : lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+
+lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i: lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
+.PHONY : lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i
+
+# target to preprocess a source file
+lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
+.PHONY : lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
+
+lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s: lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
+.PHONY : lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s
+
+# target to generate assembly for a file
+lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
+.PHONY : lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
+
+lib/FreeRTOS-Kernel/queue.obj: lib/FreeRTOS-Kernel/queue.c.obj
+.PHONY : lib/FreeRTOS-Kernel/queue.obj
+
+# target to build an object file
+lib/FreeRTOS-Kernel/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.obj
+.PHONY : lib/FreeRTOS-Kernel/queue.c.obj
+
+lib/FreeRTOS-Kernel/queue.i: lib/FreeRTOS-Kernel/queue.c.i
+.PHONY : lib/FreeRTOS-Kernel/queue.i
+
+# target to preprocess a source file
+lib/FreeRTOS-Kernel/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.i
+.PHONY : lib/FreeRTOS-Kernel/queue.c.i
+
+lib/FreeRTOS-Kernel/queue.s: lib/FreeRTOS-Kernel/queue.c.s
+.PHONY : lib/FreeRTOS-Kernel/queue.s
+
+# target to generate assembly for a file
+lib/FreeRTOS-Kernel/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.s
+.PHONY : lib/FreeRTOS-Kernel/queue.c.s
+
+lib/FreeRTOS-Kernel/stream_buffer.obj: lib/FreeRTOS-Kernel/stream_buffer.c.obj
+.PHONY : lib/FreeRTOS-Kernel/stream_buffer.obj
+
+# target to build an object file
+lib/FreeRTOS-Kernel/stream_buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.obj
+.PHONY : lib/FreeRTOS-Kernel/stream_buffer.c.obj
+
+lib/FreeRTOS-Kernel/stream_buffer.i: lib/FreeRTOS-Kernel/stream_buffer.c.i
+.PHONY : lib/FreeRTOS-Kernel/stream_buffer.i
+
+# target to preprocess a source file
+lib/FreeRTOS-Kernel/stream_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.i
+.PHONY : lib/FreeRTOS-Kernel/stream_buffer.c.i
+
+lib/FreeRTOS-Kernel/stream_buffer.s: lib/FreeRTOS-Kernel/stream_buffer.c.s
+.PHONY : lib/FreeRTOS-Kernel/stream_buffer.s
+
+# target to generate assembly for a file
+lib/FreeRTOS-Kernel/stream_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.s
+.PHONY : lib/FreeRTOS-Kernel/stream_buffer.c.s
+
+lib/FreeRTOS-Kernel/tasks.obj: lib/FreeRTOS-Kernel/tasks.c.obj
+.PHONY : lib/FreeRTOS-Kernel/tasks.obj
+
+# target to build an object file
+lib/FreeRTOS-Kernel/tasks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.obj
+.PHONY : lib/FreeRTOS-Kernel/tasks.c.obj
+
+lib/FreeRTOS-Kernel/tasks.i: lib/FreeRTOS-Kernel/tasks.c.i
+.PHONY : lib/FreeRTOS-Kernel/tasks.i
+
+# target to preprocess a source file
+lib/FreeRTOS-Kernel/tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.i
+.PHONY : lib/FreeRTOS-Kernel/tasks.c.i
+
+lib/FreeRTOS-Kernel/tasks.s: lib/FreeRTOS-Kernel/tasks.c.s
+.PHONY : lib/FreeRTOS-Kernel/tasks.s
+
+# target to generate assembly for a file
+lib/FreeRTOS-Kernel/tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.s
+.PHONY : lib/FreeRTOS-Kernel/tasks.c.s
+
+lib/FreeRTOS-Kernel/timers.obj: lib/FreeRTOS-Kernel/timers.c.obj
+.PHONY : lib/FreeRTOS-Kernel/timers.obj
+
+# target to build an object file
+lib/FreeRTOS-Kernel/timers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.obj
+.PHONY : lib/FreeRTOS-Kernel/timers.c.obj
+
+lib/FreeRTOS-Kernel/timers.i: lib/FreeRTOS-Kernel/timers.c.i
+.PHONY : lib/FreeRTOS-Kernel/timers.i
+
+# target to preprocess a source file
+lib/FreeRTOS-Kernel/timers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.i
+.PHONY : lib/FreeRTOS-Kernel/timers.c.i
+
+lib/FreeRTOS-Kernel/timers.s: lib/FreeRTOS-Kernel/timers.c.s
+.PHONY : lib/FreeRTOS-Kernel/timers.s
+
+# target to generate assembly for a file
+lib/FreeRTOS-Kernel/timers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.s
+.PHONY : lib/FreeRTOS-Kernel/timers.c.s
+
+lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+lib/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/class/video/video_device.i: lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+lib/pico-sdk/lib/tinyusb/src/class/video/video_device.s: lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+lib/pico-sdk/lib/tinyusb/src/device/usbd.obj: lib/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/device/usbd.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/device/usbd.i: lib/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/device/usbd.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+lib/pico-sdk/lib/tinyusb/src/device/usbd.s: lib/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/device/usbd.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+lib/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/device/usbd_control.i: lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+lib/pico-sdk/lib/tinyusb/src/device/usbd_control.s: lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+lib/pico-sdk/lib/tinyusb/src/tusb.obj: lib/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/tusb.obj
+
+# target to build an object file
+lib/pico-sdk/lib/tinyusb/src/tusb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : lib/pico-sdk/lib/tinyusb/src/tusb.c.obj
+
+lib/pico-sdk/lib/tinyusb/src/tusb.i: lib/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/tusb.i
+
+# target to preprocess a source file
+lib/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : lib/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+lib/pico-sdk/lib/tinyusb/src/tusb.s: lib/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/tusb.s
+
+# target to generate assembly for a file
+lib/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : lib/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 lib/pico-sdk/src/common/pico_sync/critical_section.obj: lib/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : lib/pico-sdk/src/common/pico_sync/critical_section.obj
@@ -524,6 +1222,54 @@ lib/pico-sdk/src/rp2_common/hardware_divider/divider.obj: lib/pico-sdk/src/rp2_c
 lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+
+lib/pico-sdk/src/rp2_common/hardware_exception/exception.obj: lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/hardware_exception/exception.obj
+
+# target to build an object file
+lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+
+lib/pico-sdk/src/rp2_common/hardware_exception/exception.i: lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/hardware_exception/exception.i
+
+# target to preprocess a source file
+lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+
+lib/pico-sdk/src/rp2_common/hardware_exception/exception.s: lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/hardware_exception/exception.s
+
+# target to generate assembly for a file
+lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+
+lib/pico-sdk/src/rp2_common/hardware_flash/flash.obj: lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+
+# target to build an object file
+lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+
+lib/pico-sdk/src/rp2_common/hardware_flash/flash.i: lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/hardware_flash/flash.i
+
+# target to preprocess a source file
+lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+lib/pico-sdk/src/rp2_common/hardware_flash/flash.s: lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/hardware_flash/flash.s
+
+# target to generate assembly for a file
+lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
@@ -877,6 +1623,30 @@ lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
+lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+
+lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
 lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 
@@ -1157,6 +1927,78 @@ lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+
+# target to build an object file
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+
+# target to preprocess a source file
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+
+# target to generate assembly for a file
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+
+# target to build an object file
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+
+# target to preprocess a source file
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+
+# target to generate assembly for a file
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+
+# target to build an object file
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+
+# target to preprocess a source file
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
 lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 
@@ -1180,6 +2022,30 @@ lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: lib/pico-sdk/src/rp2_common/pi
 lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+
+# target to build an object file
+lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+
+lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+
+# target to preprocess a source file
+lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+
+# target to generate assembly for a file
+lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -1262,8 +2128,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ELF2UF2Build"
+	@echo "... PioasmBuild"
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default_padded_checksummed_asm"
+	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
 	@echo "... plcSpecial"
 	@echo "... communication/communication.obj"
@@ -1272,9 +2140,93 @@ help:
 	@echo "... eeprom/eprom.obj"
 	@echo "... eeprom/eprom.i"
 	@echo "... eeprom/eprom.s"
+	@echo "... komendy_AT/checkPins.obj"
+	@echo "... komendy_AT/checkPins.i"
+	@echo "... komendy_AT/checkPins.s"
 	@echo "... komendy_AT/komendyAT.obj"
 	@echo "... komendy_AT/komendyAT.i"
 	@echo "... komendy_AT/komendyAT.s"
+	@echo "... lib/FreeRTOS-Kernel/croutine.obj"
+	@echo "... lib/FreeRTOS-Kernel/croutine.i"
+	@echo "... lib/FreeRTOS-Kernel/croutine.s"
+	@echo "... lib/FreeRTOS-Kernel/event_groups.obj"
+	@echo "... lib/FreeRTOS-Kernel/event_groups.i"
+	@echo "... lib/FreeRTOS-Kernel/event_groups.s"
+	@echo "... lib/FreeRTOS-Kernel/list.obj"
+	@echo "... lib/FreeRTOS-Kernel/list.i"
+	@echo "... lib/FreeRTOS-Kernel/list.s"
+	@echo "... lib/FreeRTOS-Kernel/portable/MemMang/heap_4.obj"
+	@echo "... lib/FreeRTOS-Kernel/portable/MemMang/heap_4.i"
+	@echo "... lib/FreeRTOS-Kernel/portable/MemMang/heap_4.s"
+	@echo "... lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj"
+	@echo "... lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i"
+	@echo "... lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s"
+	@echo "... lib/FreeRTOS-Kernel/queue.obj"
+	@echo "... lib/FreeRTOS-Kernel/queue.i"
+	@echo "... lib/FreeRTOS-Kernel/queue.s"
+	@echo "... lib/FreeRTOS-Kernel/stream_buffer.obj"
+	@echo "... lib/FreeRTOS-Kernel/stream_buffer.i"
+	@echo "... lib/FreeRTOS-Kernel/stream_buffer.s"
+	@echo "... lib/FreeRTOS-Kernel/tasks.obj"
+	@echo "... lib/FreeRTOS-Kernel/tasks.i"
+	@echo "... lib/FreeRTOS-Kernel/tasks.s"
+	@echo "... lib/FreeRTOS-Kernel/timers.obj"
+	@echo "... lib/FreeRTOS-Kernel/timers.i"
+	@echo "... lib/FreeRTOS-Kernel/timers.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/device/usbd.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/tusb.obj"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... lib/pico-sdk/lib/tinyusb/src/tusb.s"
 	@echo "... lib/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... lib/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... lib/pico-sdk/src/common/pico_sync/critical_section.s"
@@ -1309,6 +2261,12 @@ help:
 	@echo "... lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... lib/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... lib/pico-sdk/src/rp2_common/hardware_exception/exception.obj"
+	@echo "... lib/pico-sdk/src/rp2_common/hardware_exception/exception.i"
+	@echo "... lib/pico-sdk/src/rp2_common/hardware_exception/exception.s"
+	@echo "... lib/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
+	@echo "... lib/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... lib/pico-sdk/src/rp2_common/hardware_flash/flash.s"
 	@echo "... lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
@@ -1353,6 +2311,9 @@ help:
 	@echo "... lib/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... lib/pico-sdk/src/rp2_common/pico_double/double_math.s"
 	@echo "... lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
 	@echo "... lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
 	@echo "... lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
 	@echo "... lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
@@ -1388,9 +2349,21 @@ help:
 	@echo "... lib/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... lib/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... lib/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
 	@echo "... lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

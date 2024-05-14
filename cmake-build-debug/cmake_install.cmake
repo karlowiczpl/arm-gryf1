@@ -39,6 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/FREERTOS_KERNEL/cmake_install.cmake")
   include("/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/pico-sdk/cmake_install.cmake")
   include("/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/pico-onewire/cmake_install.cmake")
 

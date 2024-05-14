@@ -8,11 +8,11 @@
 
 class Setup {
 
-#define OUTPUTS { 2 , 3 , 4 , 5 , 6 , 7 }
+#define OUTPUTS { 2 , 3 , 4 , 5 , 6 , 7 };
 #define OUTPUTS_COUNT 6
 
-#define INPUTS {  };
-#define INPUTS_COUNT 0
+#define INPUTS { 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 };
+#define INPUTS_COUNT 8
 
 #define PWM {  };
 #define PWM_COUNT 0

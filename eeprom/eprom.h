@@ -9,9 +9,15 @@ class Eeprom {
 public:
     typedef struct
     {
-        uint8_t id;
+        char* id;
         uint8_t* outputStates;
     }EEPROM_T;
+
+    struct
+    {
+        char* id;
+        uint8_t* outputStates;
+    }EepromStruct;
 
     EEPROM_T loadFromEeprom();
     EEPROM_T saveToEeprom();

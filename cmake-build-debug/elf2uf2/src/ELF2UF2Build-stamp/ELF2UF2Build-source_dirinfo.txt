@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/home/karol/repoztytoria/aur/pico-sdk/tools/elf2uf2
+source_dir=/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/tools/elf2uf2
 work_dir=
 

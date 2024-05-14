@@ -1,4 +1,4 @@
-# Install script for directory: /home/karol/repoztytoria/aur/pico-sdk/src/rp2_common/pico_i2c_slave
+# Install script for directory: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_i2c_slave
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

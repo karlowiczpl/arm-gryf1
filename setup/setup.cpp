@@ -10,6 +10,8 @@ void Setup::setup()
 
     Setup s1;
     s1.setupOutputs();
+    s1.setupCommunication();
+    s1.setupInputs();
 }
 
 void Setup::setupOutputs()
@@ -63,4 +65,6 @@ void Setup::setupCommunication()
 
     uart_init(uart0 , 9600);
     uart_init(uart1 , 9600);
+
+    printf("SKONFIGUROWANO");
 }

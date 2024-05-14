@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/karol/repoztytoria/aur/pico-sdk/tools/elf2uf2"
+  "/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/tools/elf2uf2"
   "/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/elf2uf2"
   "/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/elf2uf2"
   "/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/elf2uf2/tmp"

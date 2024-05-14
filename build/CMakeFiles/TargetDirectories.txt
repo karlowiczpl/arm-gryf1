@@ -2,6 +2,8 @@
 /home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles/ELF2UF2Build.dir
 /home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles/edit_cache.dir
 /home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles/rebuild_cache.dir
+/home/karol/CLionProjects/armGryf1/cpp/build/FREERTOS_KERNEL/CMakeFiles/edit_cache.dir
+/home/karol/CLionProjects/armGryf1/cpp/build/FREERTOS_KERNEL/CMakeFiles/rebuild_cache.dir
 /home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/CMakeFiles/edit_cache.dir
 /home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/CMakeFiles/rebuild_cache.dir
 /home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/tools/CMakeFiles/edit_cache.dir
@@ -135,8 +137,12 @@
 /home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/src/rp2_common/pico_async_context/CMakeFiles/rebuild_cache.dir
 /home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/src/rp2_common/pico_btstack/CMakeFiles/edit_cache.dir
 /home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/src/rp2_common/pico_btstack/CMakeFiles/rebuild_cache.dir
+/home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir
+/home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir
 /home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/edit_cache.dir
 /home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/rebuild_cache.dir
+/home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/CMakeFiles/edit_cache.dir
+/home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/CMakeFiles/rebuild_cache.dir
 /home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/src/rp2_common/pico_lwip/CMakeFiles/edit_cache.dir
 /home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/src/rp2_common/pico_lwip/CMakeFiles/rebuild_cache.dir
 /home/karol/CLionProjects/armGryf1/cpp/build/pico-sdk/src/rp2_common/pico_cyw43_arch/CMakeFiles/edit_cache.dir

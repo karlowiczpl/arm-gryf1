@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/karol/repoztytoria/aur/pico-sdk/tools/pioasm"
+  "/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/tools/pioasm"
   "/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/pioasm"
   "/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm"
   "/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
