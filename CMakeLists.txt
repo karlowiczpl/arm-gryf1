@@ -30,13 +30,19 @@ add_executable(${PROJECT_NAME}
         communication/communication.h
         komendy_AT/checkPins.cpp
         komendy_AT/checkPins.h
+        task/myTask.cpp
+        task/myTask.h
+        komendy_AT/functions.cpp
+        komendy_AT/functions.h
+        komendy_AT/error.cpp
+        komendy_AT/error.h
 )
 
 #Utworzenie plików binarnych
 pico_add_extra_outputs(${PROJECT_NAME})
 
 
-add_subdirectory(pico-onewire)
+add_subdirectory(lib/pico-onewire)
 
 #dodanie funkcji do pico-sdk
 target_link_libraries(${PROJECT_NAME}
@@ -45,6 +51,7 @@ target_link_libraries(${PROJECT_NAME}
         pico_multicore
         hardware_pio
         pico_one_wire
+        hardware_flash
         FreeRTOS-Kernel-Heap4
 )
 

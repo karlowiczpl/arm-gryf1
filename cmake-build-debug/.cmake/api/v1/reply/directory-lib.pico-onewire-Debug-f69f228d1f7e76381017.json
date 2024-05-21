@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "pico-onewire",
-		"source" : "pico-onewire"
+		"build" : "lib/pico-onewire",
+		"source" : "lib/pico-onewire"
 	}
 }

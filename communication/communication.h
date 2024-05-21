@@ -1,16 +1,17 @@
-#ifndef PLCSPECIAL_COMMUNICATION_H
-#define PLCSPECIAL_COMMUNICATION_H
+#ifndef PLC_SPECIAL_COMMUNICATION_H
+#define PLC_SPECIAL_COMMUNICATION_H
 
 #include <iostream>
 #include <hardware/uart.h>
+#include "../lib/pico-onewire/api/one_wire.h"
 
 class Communication {
 
 
 public:
-    std::string readDataFromUart(uart_inst_t* uart);
-    void sendDataToUart(uart_inst_t* uart, char* message);
+    static char* readDataFromUart(uart_inst_t* uart);
+    static void sendDataToUart(uart_inst_t* uart , char* message);
 };
 
 
-#endif //PLCSPECIAL_COMMUNICATION_H
+#endif

@@ -1,27 +1,32 @@
-#ifndef PLCSPECIAL_EPROM_H
-#define PLCSPECIAL_EPROM_H
+#ifndef EEPROM_H
+#define EEPROM_H
 
-#include <iostream>
 #include "pico/stdlib.h"
 
-class Eeprom {
-
+class EepromStruct {
 public:
-    typedef struct
-    {
-        char* id;
-        uint8_t* outputStates;
-    }EEPROM_T;
 
+    void setId(uint8_t newId);
+
+    static EepromStruct& getInstance() {
+        static EepromStruct instance;
+        return instance;
+    }
     struct
     {
-        char* id;
-        uint8_t* outputStates;
-    }EepromStruct;
+        uint8_t id;
+        uint8_t data[255];
+    } eepromData;
 
-    EEPROM_T loadFromEeprom();
-    EEPROM_T saveToEeprom();
+private:
+
+    void loadDataFromEeprom();
+    void saveDataToEeprom();
+
+    EepromStruct() = default;
+    ~EepromStruct() = default;
+    EepromStruct(const EepromStruct&) = delete;
+    EepromStruct& operator=(const EepromStruct&) = delete;
 };
 
-
-#endif //PLCSPECIAL_EPROM_H
+#endif

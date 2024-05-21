@@ -3,13 +3,13 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/pico-onewire" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/pico-sdk" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/pico-sdk/lib/btstack" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/pico-sdk/lib/cyw43-driver" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/pico-sdk/lib/lwip" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/pico-sdk/lib/mbedtls" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/pico-sdk/lib/tinyusb" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/pico-onewire" vcs="Git" />
     <mapping directory="$USER_HOME$/repoztytoria/aur/pico-sdk/lib/btstack" vcs="Git" />
     <mapping directory="$USER_HOME$/repoztytoria/aur/pico-sdk/lib/cyw43-driver" vcs="Git" />
     <mapping directory="$USER_HOME$/repoztytoria/aur/pico-sdk/lib/lwip" vcs="Git" />

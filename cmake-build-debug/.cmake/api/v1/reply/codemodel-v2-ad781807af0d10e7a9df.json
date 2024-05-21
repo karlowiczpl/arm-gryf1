@@ -1028,15 +1028,15 @@
 					"source" : "lib/pico-sdk/docs"
 				},
 				{
-					"build" : "pico-onewire",
-					"jsonFile" : "directory-pico-onewire-Debug-940ff07135959df137df.json",
+					"build" : "lib/pico-onewire",
+					"jsonFile" : "directory-lib.pico-onewire-Debug-f69f228d1f7e76381017.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "pico-onewire"
+					"source" : "lib/pico-onewire"
 				}
 			],
 			"name" : "Debug",
@@ -1169,7 +1169,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ELF2UF2Build-Debug-bb8186c6721e8b83b516.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-1c4b842ba559215e413f.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
@@ -1211,7 +1211,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "plcSpecial::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-plcSpecial-Debug-51106472c37cc875d997.json",
+					"jsonFile" : "target-plcSpecial-Debug-d3f617d3ce99ffe0ee57.json",
 					"name" : "plcSpecial",
 					"projectIndex" : 0
 				}

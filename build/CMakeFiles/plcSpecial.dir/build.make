@@ -153,10 +153,52 @@ CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/checkPins.cpp -o CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.s
 
+CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj: CMakeFiles/plcSpecial.dir/flags.make
+CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/task/myTask.cpp
+CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj -MF CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj.d -o CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj -c /home/karol/CLionProjects/armGryf1/cpp/task/myTask.cpp
+
+CMakeFiles/plcSpecial.dir/task/myTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plcSpecial.dir/task/myTask.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/CLionProjects/armGryf1/cpp/task/myTask.cpp > CMakeFiles/plcSpecial.dir/task/myTask.cpp.i
+
+CMakeFiles/plcSpecial.dir/task/myTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plcSpecial.dir/task/myTask.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/task/myTask.cpp -o CMakeFiles/plcSpecial.dir/task/myTask.cpp.s
+
+CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj: CMakeFiles/plcSpecial.dir/flags.make
+CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.cpp
+CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj -MF CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj.d -o CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj -c /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.cpp
+
+CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.cpp > CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.i
+
+CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.cpp -o CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.s
+
+CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj: CMakeFiles/plcSpecial.dir/flags.make
+CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/error.cpp
+CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj -MF CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj.d -o CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj -c /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/error.cpp
+
+CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/error.cpp > CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.i
+
+CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/error.cpp -o CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.s
+
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -170,7 +212,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cm
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -184,7 +226,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cm
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -198,7 +240,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -212,7 +254,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -226,7 +268,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cm
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -239,7 +281,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmak
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -253,7 +295,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/sem.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -267,7 +309,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -281,7 +323,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -295,7 +337,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_for
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -309,7 +351,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_sync/critical_section.c.s
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/time.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/time.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/time.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -323,7 +365,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/time.c.s: cmake_forc
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -337,7 +379,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_time/timeout_helper.c.s: 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -351,7 +393,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/datetime.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -365,7 +407,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/datetime.c.s: cmake_
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/pheap.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -379,7 +421,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/pheap.c.s: cmake_for
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/queue.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/queue.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/queue.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -393,7 +435,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/common/pico_util/queue.c.s: cmake_for
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -407,7 +449,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cm
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -421,7 +463,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -435,7 +477,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmak
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -449,7 +491,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cm
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -463,7 +505,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -476,7 +518,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cm
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -490,7 +532,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_divider/divider.S
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -504,7 +546,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -517,7 +559,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cm
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -531,7 +573,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -544,7 +586,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: 
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -557,7 +599,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.s: 
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -571,7 +613,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -585,7 +627,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_init_ro
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -598,7 +640,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -611,7 +653,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -624,7 +666,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -638,7 +680,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -652,7 +694,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -665,7 +707,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -679,7 +721,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_sh
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -692,7 +734,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -705,7 +747,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -719,7 +761,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -733,7 +775,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/new_del
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -747,7 +789,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -761,7 +803,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmak
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -775,7 +817,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/reset_inter
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -789,7 +831,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -803,7 +845,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_d
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -817,7 +859,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -831,7 +873,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -845,7 +887,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp20
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -859,7 +901,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp20
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -873,7 +915,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_fo
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -887,7 +929,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -901,7 +943,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -915,7 +957,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -929,7 +971,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -943,7 +985,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -957,7 +999,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -971,7 +1013,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -985,7 +1027,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -999,7 +1041,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_devic
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1013,7 +1055,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1027,7 +1069,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_devic
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1041,7 +1083,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/vendor/vendor_devic
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1055,7 +1097,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/class/video/video_device.
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1069,7 +1111,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1083,7 +1125,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cma
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1097,7 +1139,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -1111,7 +1153,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1122,24 +1164,24 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
-CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.obj: CMakeFiles/plcSpecial.dir/flags.make
-CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/pico-onewire/source/one_wire.cpp
-CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.obj -MF CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.obj.d -o CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.obj -c /home/karol/CLionProjects/armGryf1/cpp/pico-onewire/source/one_wire.cpp
+CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.obj: CMakeFiles/plcSpecial.dir/flags.make
+CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/source/one_wire.cpp
+CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/source/one_wire.cpp
 
-CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/CLionProjects/armGryf1/cpp/pico-onewire/source/one_wire.cpp > CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.i
+CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/source/one_wire.cpp > CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.i
 
-CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/pico-onewire/source/one_wire.cpp -o CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.s
+CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/source/one_wire.cpp -o CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.s
 
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -MF CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
@@ -1153,7 +1195,7 @@ CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s: cmake
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj -MF CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
 
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i: cmake_force
@@ -1167,7 +1209,7 @@ CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/por
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/croutine.c
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.obj -MF CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/croutine.c
 
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.i: cmake_force
@@ -1181,7 +1223,7 @@ CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.s: cmake_force
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/event_groups.c
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.obj -MF CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/event_groups.c
 
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.i: cmake_force
@@ -1195,7 +1237,7 @@ CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/event_groups.c.s: cmake_force
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/list.c
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.obj -MF CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/list.c
 
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.i: cmake_force
@@ -1209,7 +1251,7 @@ CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/list.c.s: cmake_force
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/queue.c
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.obj -MF CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/queue.c
 
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.i: cmake_force
@@ -1223,7 +1265,7 @@ CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/queue.c.s: cmake_force
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/stream_buffer.c
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.obj -MF CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/stream_buffer.c
 
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
@@ -1237,7 +1279,7 @@ CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/stream_buffer.c.s: cmake_force
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/tasks.c
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.obj -MF CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/tasks.c
 
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.i: cmake_force
@@ -1251,7 +1293,7 @@ CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/tasks.c.s: cmake_force
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/timers.c
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.obj -MF CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/timers.c
 
 CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.i: cmake_force
@@ -1265,7 +1307,7 @@ CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.s: cmake_force
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -1284,6 +1326,9 @@ plcSpecial_OBJECTS = \
 "CMakeFiles/plcSpecial.dir/main.cpp.obj" \
 "CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj" \
 "CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.obj" \
+"CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj" \
+"CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj" \
+"CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj" \
 "CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -1354,7 +1399,7 @@ plcSpecial_OBJECTS = \
 "CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" \
 "CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
-"CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.obj" \
+"CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.obj" \
 "CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj" \
 "CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj" \
 "CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.obj" \
@@ -1375,6 +1420,9 @@ plcSpecial.elf: CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/main.cpp.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.obj
+plcSpecial.elf: CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj
+plcSpecial.elf: CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj
+plcSpecial.elf: CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1445,7 +1493,7 @@ plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/pico-sdk/lib/tinyusb/src/common/tu
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-plcSpecial.elf: CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.obj
+plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/croutine.c.obj
@@ -1459,7 +1507,7 @@ plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_e
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/build.make
 plcSpecial.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Linking CXX executable plcSpecial.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Linking CXX executable plcSpecial.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plcSpecial.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/karol/CLionProjects/armGryf1/cpp/build/plcSpecial.elf plcSpecial.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/karol/CLionProjects/armGryf1/cpp/build/plcSpecial.elf plcSpecial.bin

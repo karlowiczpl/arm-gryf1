@@ -1,11 +1,59 @@
 CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/communication/communication.cpp \
- /usr/arm-none-eabi/include/c++/13.2.1/iostream \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/requires_hosted.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/types.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/assert.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/cassert \
  /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
  /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
  /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
  /usr/arm-none-eabi/include/c++/13.2.1/pstl/pstl_config.h \
+ /usr/arm-none-eabi/include/assert.h /usr/arm-none-eabi/include/_ansi.h \
+ /usr/arm-none-eabi/include/newlib.h \
+ /usr/arm-none-eabi/include/_newlib_version.h \
+ /usr/arm-none-eabi/include/sys/config.h \
+ /usr/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/arm-none-eabi/include/sys/features.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /usr/arm-none-eabi/include/stdint.h \
+ /usr/arm-none-eabi/include/machine/_default_types.h \
+ /usr/arm-none-eabi/include/sys/_intsup.h \
+ /usr/arm-none-eabi/include/sys/_stdint.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/version.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/config.h \
+ /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/config_autogen.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/boards/pico.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/../../../../../setup/FreeRTOSConfig.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+ /usr/arm-none-eabi/include/sys/cdefs.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/types.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/error.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/cstring \
+ /usr/arm-none-eabi/include/string.h \
+ /usr/arm-none-eabi/include/sys/reent.h \
+ /usr/arm-none-eabi/include/_ansi.h \
+ /usr/arm-none-eabi/include/sys/_types.h \
+ /usr/arm-none-eabi/include/machine/_types.h \
+ /usr/arm-none-eabi/include/sys/lock.h \
+ /usr/arm-none-eabi/include/sys/_locale.h \
+ /usr/arm-none-eabi/include/strings.h \
+ /usr/arm-none-eabi/include/sys/string.h \
+ /home/karol/CLionProjects/armGryf1/cpp/communication/communication.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/iostream \
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/requires_hosted.h \
  /usr/arm-none-eabi/include/c++/13.2.1/ostream \
  /usr/arm-none-eabi/include/c++/13.2.1/ios \
  /usr/arm-none-eabi/include/c++/13.2.1/iosfwd \
@@ -13,21 +61,8 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj: \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/memoryfwd.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/postypes.h \
  /usr/arm-none-eabi/include/c++/13.2.1/cwchar \
- /usr/arm-none-eabi/include/wchar.h /usr/arm-none-eabi/include/_ansi.h \
- /usr/arm-none-eabi/include/newlib.h \
- /usr/arm-none-eabi/include/_newlib_version.h \
- /usr/arm-none-eabi/include/sys/config.h \
- /usr/arm-none-eabi/include/machine/ieeefp.h \
- /usr/arm-none-eabi/include/sys/features.h \
- /usr/arm-none-eabi/include/sys/reent.h \
- /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
- /usr/arm-none-eabi/include/sys/cdefs.h \
- /usr/arm-none-eabi/include/machine/_default_types.h \
- /usr/arm-none-eabi/include/sys/_types.h \
- /usr/arm-none-eabi/include/machine/_types.h \
- /usr/arm-none-eabi/include/sys/lock.h \
+ /usr/arm-none-eabi/include/wchar.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
- /usr/arm-none-eabi/include/sys/_locale.h \
  /usr/arm-none-eabi/include/c++/13.2.1/exception \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/exception.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/exception_ptr.h \
@@ -43,7 +78,7 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj: \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/localefwd.h \
  /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++locale.h \
  /usr/arm-none-eabi/include/c++/13.2.1/clocale \
- /usr/arm-none-eabi/include/locale.h /usr/arm-none-eabi/include/_ansi.h \
+ /usr/arm-none-eabi/include/locale.h \
  /usr/arm-none-eabi/include/c++/13.2.1/cctype \
  /usr/arm-none-eabi/include/ctype.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/ios_base.h \
@@ -124,37 +159,7 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj: \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/ostream.tcc \
  /usr/arm-none-eabi/include/c++/13.2.1/istream \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/istream.tcc \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/assert.h \
- /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
- /usr/arm-none-eabi/include/c++/13.2.1/cassert \
- /usr/arm-none-eabi/include/assert.h \
- /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
- /usr/arm-none-eabi/include/stdint.h \
- /usr/arm-none-eabi/include/sys/_intsup.h \
- /usr/arm-none-eabi/include/sys/_stdint.h \
- /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/version.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/config_autogen.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/boards/pico.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/../../../../../setup/FreeRTOSConfig.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/error.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_time/include/pico/time.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+ /home/karol/CLionProjects/armGryf1/cpp/communication/../lib/pico-onewire/api/one_wire.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
@@ -165,12 +170,7 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /usr/arm-none-eabi/include/c++/13.2.1/cstring \
- /usr/arm-none-eabi/include/string.h /usr/arm-none-eabi/include/strings.h \
- /usr/arm-none-eabi/include/sys/string.h \
- /home/karol/CLionProjects/armGryf1/cpp/communication/communication.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_time/include/pico/time.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h

@@ -169,5 +169,5 @@
 /home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 /home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/pico-sdk/docs/CMakeFiles/edit_cache.dir
 /home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
-/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/pico-onewire/CMakeFiles/edit_cache.dir
-/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/pico-onewire/CMakeFiles/rebuild_cache.dir
+/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/lib/pico-onewire/CMakeFiles/edit_cache.dir
+/home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug/lib/pico-onewire/CMakeFiles/rebuild_cache.dir

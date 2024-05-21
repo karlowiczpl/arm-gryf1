@@ -1,95 +1,49 @@
-#include <iostream>
-
 #include "checkPins.h"
-#include "../setup/setup.hpp"
-#include "../eeprom/eprom.h"
+#include "komendyAT.h"
 
-char* CheckPins::checkInputPins()
+void CheckPins::checkInputPins()
 {
-    Setup s1;
     for(uint8_t i = 0; i < INPUTS_COUNT; i++)
     {
-        if(gpio_get(s1.HardwareInfo.inputs[i]) != States.input[i])
+        if(gpio_get(HardwareInfo.inputs[i]) != States.input[i])
         {
-            States.input[i] = gpio_get(s1.HardwareInfo.inputs[i]);
-            static char message[50] = "I=";
-            uint8_t counter = 2;
-            char id[4] = "12";
-            for(uint8_t i = 0; i < 3; i++)
-            {
-                if(id[i] != '\0')
-                {
-                    message[counter] = id[i];
-                    counter++;
-                } else break;
-            }
-            message[counter] = ',';
-            counter++;
-
-            for(uint8_t i = 0; i < INPUTS_COUNT; i++)
-            {
-                message[counter] = (States.input[i] + 48);
-                counter++;
-                message[counter] = ',';
-                counter++;
-            }
-            message[counter -= 1] = '\n';
-
-            printf("%s\n" , message);
-            return message;
+            EepromStruct& eeprom = EepromStruct::getInstance();
+            States.input[i] = gpio_get(HardwareInfo.inputs[i]);
+            char fun[] = "I";
+            char id[3];
+            sprintf(id , "%d" , eeprom.eepromData.id);
+            KomendyAT::sendCommandToUartTabble(nullptr , fun , States.input , INPUTS_COUNT , id);
         }
     }
-    return 0;
-}
-char* CheckPins::writeActualInputState()
-{
-    Setup s1;
-    static char message[50] = "I=";
-    uint8_t counter = 2;
-    char id[4] = "12\0";
-    for(uint8_t i = 0; i < 3; i++)
-    {
-        if(id[i] != '\0')
-        {
-            message[counter] = id[i];
-            counter++;
-        } else break;
-    }
-    message[counter] = ',';
-    counter++;
-    for(uint8_t i = 0; i < INPUTS_COUNT; i++)
-    {
-        message[counter] = (48 + gpio_get(s1.HardwareInfo.inputs[i]));
-        counter++;
-        message[counter] = ',';
-        counter++;
-    }
-    message[counter - 1] = '\n';
-    return message;
-}
-char* CheckPins::writeActualOutputState()
-{
-    Setup s1;
-    static char message[50] = "0=";
-    uint8_t counter = 2;
-    char id[4] = "12";
-    for(uint8_t i = 0; i < 3; i++)
-    {
-        if(id[i] != '\0')
-        {
-            message[counter] = id[i];
-            counter++;
-        } else break;
-    }
-    message[counter] = ',';
-    counter++;
     for(uint8_t i = 0; i < OUTPUTS_COUNT; i++)
     {
-        message[counter] = (48 + gpio_get_out_level(s1.HardwareInfo.outputs[i]));
-        counter++;
-        message[counter] = ',';
-        counter++;
+        if(gpio_get_out_level(HardwareInfo.outputs[i]) != States.outputs[i])
+        {
+            for(uint8_t j = 0; j < OUTPUTS_COUNT; j++)
+            {
+                States.outputs[j] = gpio_get_out_level(HardwareInfo.outputs[j]);
+            }
+            EepromStruct& eeprom = EepromStruct::getInstance();
+            char fun[] = "O";
+            char ids[3];
+            sprintf(ids , "%d" , eeprom.eepromData.id);
+            KomendyAT::sendCommandToUartTabble(nullptr , fun , States.outputs , OUTPUTS_COUNT , ids);
+        }
     }
-    message[counter - 1] = '\n';
-    return message;
+}
+void CheckPins::writeActualInputState()
+{
+    EepromStruct& eeprom = EepromStruct::getInstance();
+    char fun[] = "I";
+    char id[3];
+    sprintf(id , "%d" , eeprom.eepromData.id);
+    KomendyAT::sendCommandToUartTabble(nullptr , fun , States.input , INPUTS_COUNT , id);
+}
+void CheckPins::writeActualOutputState()
+{
+    EepromStruct& eeprom = EepromStruct::getInstance();
+    char fun[] = "O";
+    char id[3];
+    sprintf(id , "%d" , eeprom.eepromData.id);
+    KomendyAT::sendCommandToUartTabble(nullptr , fun , States.outputs , OUTPUTS_COUNT , id);
 }

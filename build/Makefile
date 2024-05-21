@@ -279,6 +279,54 @@ komendy_AT/checkPins.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.s
 .PHONY : komendy_AT/checkPins.cpp.s
 
+komendy_AT/error.obj: komendy_AT/error.cpp.obj
+.PHONY : komendy_AT/error.obj
+
+# target to build an object file
+komendy_AT/error.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj
+.PHONY : komendy_AT/error.cpp.obj
+
+komendy_AT/error.i: komendy_AT/error.cpp.i
+.PHONY : komendy_AT/error.i
+
+# target to preprocess a source file
+komendy_AT/error.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.i
+.PHONY : komendy_AT/error.cpp.i
+
+komendy_AT/error.s: komendy_AT/error.cpp.s
+.PHONY : komendy_AT/error.s
+
+# target to generate assembly for a file
+komendy_AT/error.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.s
+.PHONY : komendy_AT/error.cpp.s
+
+komendy_AT/functions.obj: komendy_AT/functions.cpp.obj
+.PHONY : komendy_AT/functions.obj
+
+# target to build an object file
+komendy_AT/functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj
+.PHONY : komendy_AT/functions.cpp.obj
+
+komendy_AT/functions.i: komendy_AT/functions.cpp.i
+.PHONY : komendy_AT/functions.i
+
+# target to preprocess a source file
+komendy_AT/functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.i
+.PHONY : komendy_AT/functions.cpp.i
+
+komendy_AT/functions.s: komendy_AT/functions.cpp.s
+.PHONY : komendy_AT/functions.s
+
+# target to generate assembly for a file
+komendy_AT/functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.s
+.PHONY : komendy_AT/functions.cpp.s
+
 komendy_AT/komendyAT.obj: komendy_AT/komendyAT.cpp.obj
 .PHONY : komendy_AT/komendyAT.obj
 
@@ -518,6 +566,30 @@ lib/FreeRTOS-Kernel/timers.s: lib/FreeRTOS-Kernel/timers.c.s
 lib/FreeRTOS-Kernel/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/timers.c.s
 .PHONY : lib/FreeRTOS-Kernel/timers.c.s
+
+lib/pico-onewire/source/one_wire.obj: lib/pico-onewire/source/one_wire.cpp.obj
+.PHONY : lib/pico-onewire/source/one_wire.obj
+
+# target to build an object file
+lib/pico-onewire/source/one_wire.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.obj
+.PHONY : lib/pico-onewire/source/one_wire.cpp.obj
+
+lib/pico-onewire/source/one_wire.i: lib/pico-onewire/source/one_wire.cpp.i
+.PHONY : lib/pico-onewire/source/one_wire.i
+
+# target to preprocess a source file
+lib/pico-onewire/source/one_wire.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.i
+.PHONY : lib/pico-onewire/source/one_wire.cpp.i
+
+lib/pico-onewire/source/one_wire.s: lib/pico-onewire/source/one_wire.cpp.s
+.PHONY : lib/pico-onewire/source/one_wire.s
+
+# target to generate assembly for a file
+lib/pico-onewire/source/one_wire.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.s
+.PHONY : lib/pico-onewire/source/one_wire.cpp.s
 
 lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
@@ -2071,30 +2143,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-pico-onewire/source/one_wire.obj: pico-onewire/source/one_wire.cpp.obj
-.PHONY : pico-onewire/source/one_wire.obj
-
-# target to build an object file
-pico-onewire/source/one_wire.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.obj
-.PHONY : pico-onewire/source/one_wire.cpp.obj
-
-pico-onewire/source/one_wire.i: pico-onewire/source/one_wire.cpp.i
-.PHONY : pico-onewire/source/one_wire.i
-
-# target to preprocess a source file
-pico-onewire/source/one_wire.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.i
-.PHONY : pico-onewire/source/one_wire.cpp.i
-
-pico-onewire/source/one_wire.s: pico-onewire/source/one_wire.cpp.s
-.PHONY : pico-onewire/source/one_wire.s
-
-# target to generate assembly for a file
-pico-onewire/source/one_wire.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/pico-onewire/source/one_wire.cpp.s
-.PHONY : pico-onewire/source/one_wire.cpp.s
-
 setup/setup.obj: setup/setup.cpp.obj
 .PHONY : setup/setup.obj
 
@@ -2118,6 +2166,30 @@ setup/setup.s: setup/setup.cpp.s
 setup/setup.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/setup.cpp.s
 .PHONY : setup/setup.cpp.s
+
+task/myTask.obj: task/myTask.cpp.obj
+.PHONY : task/myTask.obj
+
+# target to build an object file
+task/myTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj
+.PHONY : task/myTask.cpp.obj
+
+task/myTask.i: task/myTask.cpp.i
+.PHONY : task/myTask.i
+
+# target to preprocess a source file
+task/myTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/task/myTask.cpp.i
+.PHONY : task/myTask.cpp.i
+
+task/myTask.s: task/myTask.cpp.s
+.PHONY : task/myTask.s
+
+# target to generate assembly for a file
+task/myTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/task/myTask.cpp.s
+.PHONY : task/myTask.cpp.s
 
 # Help Target
 help:
@@ -2143,6 +2215,12 @@ help:
 	@echo "... komendy_AT/checkPins.obj"
 	@echo "... komendy_AT/checkPins.i"
 	@echo "... komendy_AT/checkPins.s"
+	@echo "... komendy_AT/error.obj"
+	@echo "... komendy_AT/error.i"
+	@echo "... komendy_AT/error.s"
+	@echo "... komendy_AT/functions.obj"
+	@echo "... komendy_AT/functions.i"
+	@echo "... komendy_AT/functions.s"
 	@echo "... komendy_AT/komendyAT.obj"
 	@echo "... komendy_AT/komendyAT.i"
 	@echo "... komendy_AT/komendyAT.s"
@@ -2173,6 +2251,9 @@ help:
 	@echo "... lib/FreeRTOS-Kernel/timers.obj"
 	@echo "... lib/FreeRTOS-Kernel/timers.i"
 	@echo "... lib/FreeRTOS-Kernel/timers.s"
+	@echo "... lib/pico-onewire/source/one_wire.obj"
+	@echo "... lib/pico-onewire/source/one_wire.i"
+	@echo "... lib/pico-onewire/source/one_wire.s"
 	@echo "... lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... lib/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -2367,12 +2448,12 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... pico-onewire/source/one_wire.obj"
-	@echo "... pico-onewire/source/one_wire.i"
-	@echo "... pico-onewire/source/one_wire.s"
 	@echo "... setup/setup.obj"
 	@echo "... setup/setup.i"
 	@echo "... setup/setup.s"
+	@echo "... task/myTask.obj"
+	@echo "... task/myTask.i"
+	@echo "... task/myTask.s"
 .PHONY : help
 
 

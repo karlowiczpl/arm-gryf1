@@ -1,51 +1,52 @@
-#ifndef PLCSPECIAL_SETUP_HPP
-#define PLCSPECIAL_SETUP_HPP
+#ifndef PLC_SPECIAL_SETUP_HPP
+#define PLC_SPECIAL_SETUP_HPP
 
 #include <cstdio>
+#include <vector>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
-#include "../pico-onewire/api/one_wire.h"
 
-class Setup {
+#include "../lib/pico-onewire/api/one_wire.h"
 
 #define OUTPUTS { 2 , 3 , 4 , 5 , 6 , 7 };
 #define OUTPUTS_COUNT 6
 
-#define INPUTS { 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 };
-#define INPUTS_COUNT 8
+#define INPUTS { 10 , 11 , 12 , 13 , 14 };
+#define INPUTS_COUNT 5
 
-#define PWM {  };
-#define PWM_COUNT 0
+#define PWM_T { 20 , 21 , 22 };
+#define PWM_COUNT 3
 
-#define TEMPERATURE {  };
-#define TEMPERATURE_COUNT 0
+#define TEMPERATURE { 15 , 16 , 17 , 18 , 19};
+#define TEMPERATURE_COUNT 5
 
-#define UART0_PIN 0
-#define UART1_PIN 8
+struct
+{
+    uint8_t outputs[OUTPUTS_COUNT] = OUTPUTS;
+    uint8_t pwm[PWM_COUNT] = PWM_T;
+    uint8_t temperature[TEMPERATURE_COUNT] = TEMPERATURE;
+    uint8_t inputs[INPUTS_COUNT] = INPUTS;
+}HardwareInfo;
 
-    uint8_t inputs[INPUTS_COUNT];
-    uint8_t outputs[OUTPUTS_COUNT];
-    uint8_t temperature[TEMPERATURE_COUNT];
-    uint8_t pwm[PWM_COUNT];
+class Setup {
 
-    void setupOutputs();
-    void setupInputs();
-    void setupPwm();
-    void setupTemperature();
-    void setupCommunication();
+
+#define UART0_TX_PIN 0
+#define UART0_RX_PIN 1
+#define UART1_TX_PIN 8
+#define UART1_RX_PIN 9
+
+#define BAUD_RATE 9600
+
+
+    static void setupOutputs();
+    static void setupInputs();
+    static void setupPwm();
+    static void setupCommunication();
 
 public:
 
-    struct
-    {
-        uint8_t outputs[OUTPUTS_COUNT] = OUTPUTS;
-        uint8_t pwm[PWM_COUNT] = PWM;
-        uint8_t temperature[TEMPERATURE_COUNT] = TEMPERATURE;
-        uint8_t inputs[INPUTS_COUNT] = INPUTS;
-    }HardwareInfo;
-
-    void setup();
-
+    static void setup();
 };
 
-#endif //PLCSPECIAL_SETUP_HPP
+#endif

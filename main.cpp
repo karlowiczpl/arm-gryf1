@@ -1,78 +1,83 @@
 #include <iostream>
 #include "pico/stdlib.h"
-//#include "pico/multicore.h"
 #include "FreeRTOS.h"
 #include "task.h"
 
-#include "komendy_AT/komendyAT.h"
 #include "setup/setup.hpp"
-#include "communication/communication.h"
-#include "komendy_AT/checkPins.h"
+#include "task/myTask.h"
 
-void readTask(void *pvParameters);
-void writeTask(void *pvParameters);
-void statusComand(void *pvParameters);
+int main() {
 
-int main(void) {
-
-    Setup setup;
-    KomendyAT at;
-    Communication com;
-    Eeprom epreom;
-    setup.setup();
-    epreom.loadFromEeprom();
+    Task task;
+    Setup::setup();
 
     stdio_init_all();
 
-    xTaskCreate(readTask , "readFromUart" , configMINIMAL_STACK_SIZE, NULL , 1, NULL);
-    xTaskCreate(writeTask , "writeToUart" , configMINIMAL_STACK_SIZE, NULL , 1, NULL);
-    xTaskCreate(statusComand , "writeStatus" , configMINIMAL_STACK_SIZE, NULL , 1, NULL);
+    xTaskCreate(Task::readFromUart0 , "readFromUart0" , configMINIMAL_STACK_SIZE, nullptr , 1, nullptr);
+    xTaskCreate(Task::readFromUart1 , "readFromUart1" , configMINIMAL_STACK_SIZE, nullptr , 1, nullptr);
+    xTaskCreate(Task::writeToUart , "writeToUart" , configMINIMAL_STACK_SIZE, nullptr , 1, nullptr);
+    xTaskCreate(Task::writeStatusCommand , "writeStatus" , configMINIMAL_STACK_SIZE, nullptr , 1, nullptr);
+#if TEMPERATURE_COUNT
+    xTaskCreate(Task::temperature, "temperature", 2048, nullptr, 2, nullptr);
+#endif
+
 
 
     vTaskStartScheduler();
 
-    while ( 1 )     {}
-
-    return 0;
+    while (true)     {}
 }
 
-void readTask(void *pvParameters)
-{
-    Communication com;
-    std::string message;
-    while (1)
-    {
-        message = com.readDataFromUart(uart1);
-//        KomendyAT::parseMessage(message);
-        std::cout<<message<<std::endl;
-    }
-}
-void writeTask(void *pvParameters)
-{
-    Communication com;
-    CheckPins c1;
-    char* message;
-    while (1)
-    {
-
-        c1.checkInputPins();
-        vTaskDelay(10);
-    }
-}
-void statusComand(void *pvParameters)
-{
-    CheckPins c1;
-    Communication com;
-    char* message;
-    while ( 1 )
-    {
-        TickType_t xNextWakeTime = xTaskGetTickCount();
-        message = c1.writeActualInputState();
-        com.sendDataToUart(uart0 , message);
-        com.sendDataToUart(uart1 , message);
-        message = c1.writeActualOutputState();
-        com.sendDataToUart(uart0 , message);
-        com.sendDataToUart(uart1 , message);
-        vTaskDelayUntil(&xNextWakeTime, 500);
-    }
-}
+//#include <iostream>
+//#include "pico/stdlib.h"
+//#include "hardware/uart.h"
+//#include "pico/multicore.h"
+//#include "cstring"
+//
+//void read()
+//{
+//    char readed[50];
+//    while ( 1 )
+//    {
+//        readed[0] = 0;
+//        scanf("%s" , readed);
+//        if(readed[0] != 0)
+//        {
+//            printf("Sending: %s\n" , readed);
+//            if(uart_is_writable(uart0))
+//            {
+//                uart_puts(uart0 , readed);
+//                uart_putc(uart0 , '\n');
+//            }
+//        }
+//    }
+//}
+//
+//int main() {
+//    stdio_init_all();
+//    gpio_init(0);
+//    gpio_init(1);
+//    gpio_init(8);
+//    gpio_init(9);
+//
+//    gpio_set_function(0, GPIO_FUNC_UART);
+//    gpio_set_function(1, GPIO_FUNC_UART);
+//
+//    uart_init(uart0, 9600);
+//
+//    gpio_set_function(8, GPIO_FUNC_UART);
+//    gpio_set_function(9, GPIO_FUNC_UART);
+//
+//    uart_init(uart1, 9600);
+//
+//    multicore_launch_core1(read);
+//
+//    char c;
+//    while (1) {
+//
+//        if(uart_is_readable(uart0))
+//        {
+//            std::cout<<uart_getc(uart0);
+//        }
+//    }
+//}

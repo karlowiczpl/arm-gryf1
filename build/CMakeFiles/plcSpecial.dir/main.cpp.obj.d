@@ -180,15 +180,13 @@ CMakeFiles/plcSpecial.dir/main.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/mpu_wrappers.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/task.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/list.h \
- /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.h \
+ /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp \
  /usr/arm-none-eabi/include/c++/13.2.1/vector \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_uninitialized.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_vector.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_bvector.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/vector.tcc \
- /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../eeprom/eprom.h \
- /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp \
- /home/karol/CLionProjects/armGryf1/cpp/setup/../pico-onewire/api/one_wire.h \
- /home/karol/CLionProjects/armGryf1/cpp/communication/communication.h \
- /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/checkPins.h \
- /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../setup/setup.hpp
+ /home/karol/CLionProjects/armGryf1/cpp/setup/../lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/task/myTask.h \
+ /home/karol/CLionProjects/armGryf1/cpp/task/../lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/task/../setup/setup.hpp

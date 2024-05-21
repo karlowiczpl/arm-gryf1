@@ -1,11 +1,9 @@
-#include <iostream>
-#include "pico/stdlib.h"
 #include "hardware/uart.h"
 #include <cstring>
 
 #include "communication.h"
 
-std::string Communication::readDataFromUart(uart_inst_t* uart)
+char* Communication::readDataFromUart(uart_inst_t* uart)
 {
     if(uart_is_readable(uart))
     {
@@ -18,7 +16,7 @@ std::string Communication::readDataFromUart(uart_inst_t* uart)
             if(message[counter] == '\n')
             {
                 message[counter] = '\0';
-                return (std::string )message;
+                return message;
             }
             counter++;
         }
@@ -26,6 +24,5 @@ std::string Communication::readDataFromUart(uart_inst_t* uart)
 }
 
 void Communication::sendDataToUart(uart_inst_t* uart, char* message) {
-
     uart_puts(uart , message);
 }

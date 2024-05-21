@@ -699,7 +699,7 @@
 			"path" : "/home/karol/repoztytoria/clion-2023.3.4/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake"
 		},
 		{
-			"path" : "pico-onewire/CMakeLists.txt"
+			"path" : "lib/pico-onewire/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -18,6 +18,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake"
   "/home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/library.cmake"
   "/home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/pico_sdk_import.cmake"
+  "/home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/CMakeLists.txt"
   "/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/CMakeLists.txt"
   "/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/cmake/Platform/PICO.cmake"
   "/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/cmake/pico_pre_load_platform.cmake"
@@ -122,7 +123,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/tools/CMakeLists.txt"
   "/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/tools/FindELF2UF2.cmake"
   "/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/tools/FindPioasm.cmake"
-  "/home/karol/CLionProjects/armGryf1/cpp/pico-onewire/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -254,7 +254,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2040/hardware_regs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2040/hardware_structs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "pico-onewire/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/pico-onewire/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
