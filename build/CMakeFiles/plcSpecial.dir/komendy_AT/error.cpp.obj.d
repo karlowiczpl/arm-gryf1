@@ -180,4 +180,5 @@ CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../setup/../lib/pico-onewire/api/one_wire.h \
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.h \
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../eeprom/../lib/pico-onewire/api/one_wire.h \
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../eeprom/../setup/setup.hpp

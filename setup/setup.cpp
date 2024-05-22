@@ -2,6 +2,8 @@
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
 
+#include "../eeprom/eprom.h"
+
 void Setup::setup()
 {
     stdio_init_all();
@@ -56,6 +58,15 @@ void Setup::setupCommunication()
 
     uart_init(uart0 , BAUD_RATE);
     uart_init(uart1 , BAUD_RATE);
+
+    EepromStruct& eeprom = EepromStruct::getInstance();
+
+    for(unsigned char i : HardwareInfo.temperature)
+    {
+        One_wire oneWire(i);
+        oneWire.init();
+        eeprom.one_wires.push_back(oneWire);
+    }
 }
 
 

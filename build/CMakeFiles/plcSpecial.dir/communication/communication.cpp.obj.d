@@ -173,4 +173,19 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_time/include/pico/time.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+ /home/karol/CLionProjects/armGryf1/cpp/communication/../eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/vector \
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_uninitialized.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_vector.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_bvector.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/vector.tcc \
+ /home/karol/CLionProjects/armGryf1/cpp/communication/../eeprom/../lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/communication/../eeprom/../setup/setup.hpp \
+ /home/karol/CLionProjects/armGryf1/cpp/communication/../eeprom/../setup/../lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/communication/../komendy_AT/komendyAT.h \
+ /home/karol/CLionProjects/armGryf1/cpp/communication/../komendy_AT/../eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/communication/../komendy_AT/../setup/setup.hpp

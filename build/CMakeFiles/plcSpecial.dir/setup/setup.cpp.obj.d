@@ -118,4 +118,7 @@ CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/setup/../lib/pico-onewire/api/one_wire.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
+ /home/karol/CLionProjects/armGryf1/cpp/setup/../eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/setup/../eeprom/../lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/setup/../eeprom/../setup/setup.hpp

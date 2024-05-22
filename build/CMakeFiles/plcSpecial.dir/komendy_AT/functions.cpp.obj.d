@@ -187,12 +187,15 @@ CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../setup/../lib/pico-onewire/api/one_wire.h \
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.h \
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../eeprom/../lib/pico-onewire/api/one_wire.h \
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../eeprom/../setup/setup.hpp \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../communication/communication.h \
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../communication/../lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../communication/../eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/../communication/../komendy_AT/komendyAT.h \
  /usr/arm-none-eabi/include/c++/13.2.1/cstring \
  /usr/arm-none-eabi/include/string.h /usr/arm-none-eabi/include/strings.h \
  /usr/arm-none-eabi/include/sys/string.h \

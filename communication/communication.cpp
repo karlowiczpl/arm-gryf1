@@ -2,6 +2,7 @@
 #include <cstring>
 
 #include "communication.h"
+#include "../komendy_AT/komendyAT.h"
 
 char* Communication::readDataFromUart(uart_inst_t* uart)
 {
@@ -25,4 +26,22 @@ char* Communication::readDataFromUart(uart_inst_t* uart)
 
 void Communication::sendDataToUart(uart_inst_t* uart, char* message) {
     uart_puts(uart , message);
+}
+
+void Communication::oneWireTemperature()
+{
+    EepromStruct& eeprom = EepromStruct::getInstance();
+    KomendyAT kom{};
+    rom_address_t address {};
+    for(uint8_t i = 0; i < TEMPERATURE_COUNT; i++)
+    {
+        eeprom.one_wires[i].single_device_read_rom(address);
+        if(address.rom[0] != 0)
+        {
+            eeprom.one_wires[i].convert_temperature(address , true , false);
+            char id[3];
+            sprintf(id , "%d" , eeprom.eepromData.id);
+            kom.sendCommandTemperature(eeprom.one_wires[i].temperature(address) , id , i);
+        }
+    }
 }

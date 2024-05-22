@@ -1,8 +1,9 @@
 #include "checkPins.h"
 #include "komendyAT.h"
 #include "../task/myTask.h"
+#include "../communication/communication.h"
 
-void CheckPins::checkInputPins(uint32_t time)
+void CheckPins::checkInputPins()
 {
     for(uint8_t i = 0; i < INPUTS_COUNT; i++)
     {
@@ -18,6 +19,9 @@ void CheckPins::checkInputPins(uint32_t time)
             vTaskDelay(20);
         }
     }
+}
+void CheckPins::checkOutputPins()
+{
     for(uint8_t i = 0; i < OUTPUTS_COUNT; i++)
     {
         if(gpio_get_out_level(HardwareInfo.outputs[i]) != States.outputs[i])
@@ -51,18 +55,37 @@ void CheckPins::writeActualOutputState()
     KomendyAT::sendCommandToUartTabble(nullptr , fun , States.outputs , OUTPUTS_COUNT , id);
 }
 
-void CheckPins::timerOfButtonPress(uint8_t time)
+void CheckPins::pushButton()
 {
-    for(unsigned long i : States.inputsTime)
-    {
+    EepromStruct& eeprom = EepromStruct::getInstance();
+    for(uint8_t i = 0; i < INPUTS_COUNT; i++) {
+        uint8_t currentState = gpio_get(HardwareInfo.inputs[i]);
 
-//        if((time - i) < 4000)
-//        {
-//            printf("Zmienil sie stan\n");
-//            printf("%ld\n" , time - i);
+        if (currentState != PushButton.oldState[i]) {
+            if (currentState == 1) {
+                PushButton.lastTime[i] = time_us_32();
+                PushButton.enable[i] = true;
+            } else {
+                if (us_to_ms(time_us_32() - PushButton.lastTime[i]) > 30 &&
+                    us_to_ms(time_us_32() - PushButton.lastTime[i]) < eeprom.eepromData.shortPressTime[i]) {
+                    char message[20];
+                    sprintf(message, "PS=%d,%d\n", eeprom.eepromData.id, i + 1);
+                    Communication::sendDataToUart(uart0, message);
+                    Communication::sendDataToUart(uart1, message);
+                }
+                PushButton.lastTime[i] = time_us_32();
+                PushButton.enable[i] = false;
+            }
+            PushButton.oldState[i] = currentState;
+        }
 
-//        }
-        printf("Wartosc: %ld\n" , time - States.inputsTime[i]);
-
+        if (us_to_ms(time_us_32() - PushButton.lastTime[i]) > eeprom.eepromData.longPressTime[i] &&
+            PushButton.enable[i] && PushButton.lastTime[i] != 0) {
+            char message[20];
+            sprintf(message, "PL=%d,%d\n", eeprom.eepromData.id, i + 1);
+            Communication::sendDataToUart(uart0, message);
+            Communication::sendDataToUart(uart1, message);
+            PushButton.enable[i] = false;
+        }
     }
 }

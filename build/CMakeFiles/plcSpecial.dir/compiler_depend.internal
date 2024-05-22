@@ -6,6 +6,13 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/config_autogen.h
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/version.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
+ /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
+ /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
+ /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/communication/communication.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h
@@ -16,6 +23,7 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/config.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/error.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/types.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_time/include/pico/time.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
@@ -40,6 +48,8 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  /usr/arm-none-eabi/include/_ansi.h
  /usr/arm-none-eabi/include/_newlib_version.h
  /usr/arm-none-eabi/include/alloca.h
@@ -98,12 +108,15 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj
  /usr/arm-none-eabi/include/c++/13.2.1/bits/requires_hosted.h
  /usr/arm-none-eabi/include/c++/13.2.1/bits/std_abs.h
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_algobase.h
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_bvector.h
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_construct.h
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_function.h
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_iterator.h
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_iterator_base_funcs.h
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_iterator_base_types.h
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_pair.h
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_uninitialized.h
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_vector.h
  /usr/arm-none-eabi/include/c++/13.2.1/bits/streambuf.tcc
  /usr/arm-none-eabi/include/c++/13.2.1/bits/streambuf_iterator.h
  /usr/arm-none-eabi/include/c++/13.2.1/bits/string_view.tcc
@@ -111,6 +124,7 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj
  /usr/arm-none-eabi/include/c++/13.2.1/bits/uses_allocator.h
  /usr/arm-none-eabi/include/c++/13.2.1/bits/uses_allocator_args.h
  /usr/arm-none-eabi/include/c++/13.2.1/bits/utility.h
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/vector.tcc
  /usr/arm-none-eabi/include/c++/13.2.1/cassert
  /usr/arm-none-eabi/include/c++/13.2.1/cctype
  /usr/arm-none-eabi/include/c++/13.2.1/cerrno
@@ -145,6 +159,7 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj
  /usr/arm-none-eabi/include/c++/13.2.1/tuple
  /usr/arm-none-eabi/include/c++/13.2.1/type_traits
  /usr/arm-none-eabi/include/c++/13.2.1/typeinfo
+ /usr/arm-none-eabi/include/c++/13.2.1/vector
  /usr/arm-none-eabi/include/ctype.h
  /usr/arm-none-eabi/include/errno.h
  /usr/arm-none-eabi/include/locale.h
@@ -181,6 +196,7 @@ CMakeFiles/plcSpecial.dir/eeprom/eprom.cpp.obj
  /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.cpp
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/config_autogen.h
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/version.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
  /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
@@ -336,6 +352,11 @@ CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.obj
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/checkPins.cpp
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/config_autogen.h
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/version.h
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
+ /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
+ /home/karol/CLionProjects/armGryf1/cpp/communication/communication.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
  /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
@@ -533,6 +554,7 @@ CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/error.cpp
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/config_autogen.h
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/version.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
  /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
@@ -717,8 +739,11 @@ CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.cpp
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/config_autogen.h
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/version.h
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
+ /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/communication/communication.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
  /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
@@ -928,8 +953,11 @@ CMakeFiles/plcSpecial.dir/komendy_AT/komendyAT.cpp.obj
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.cpp
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/config_autogen.h
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/version.h
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
+ /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/communication/communication.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
  /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
@@ -4766,6 +4794,7 @@ CMakeFiles/plcSpecial.dir/main.cpp.obj
  /home/karol/CLionProjects/armGryf1/cpp/main.cpp
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/config_autogen.h
  /home/karol/CLionProjects/armGryf1/cpp/build/generated/pico_base/pico/version.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
  /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
  /home/karol/CLionProjects/armGryf1/cpp/setup/FreeRTOSConfig.h
@@ -5002,6 +5031,9 @@ CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
+ /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
  /usr/arm-none-eabi/include/_ansi.h
  /usr/arm-none-eabi/include/_newlib_version.h
  /usr/arm-none-eabi/include/assert.h
@@ -5132,12 +5164,15 @@ CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
- /home/karol/CLionProjects/armGryf1/cpp/communication/communication.h
  /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
  /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h
+ /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
+ /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
+ /home/karol/CLionProjects/armGryf1/cpp/communication/communication.h
  /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp
  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/checkPins.h
- /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h
  /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp

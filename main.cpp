@@ -9,20 +9,19 @@
 
 int main() {
 
-    Task task;
     Setup::setup();
     EepromStruct& eeprom = EepromStruct::getInstance();
     eeprom.loadDataFromEeprom();
-    stdio_init_all();
 
     xTaskCreate(Task::readFromUart0 , "readFromUart0" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
     xTaskCreate(Task::readFromUart1 , "readFromUart1" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
+    #if INPUTS_COUNT || OUTPUTS_COUNT
     xTaskCreate(Task::writeToUart , "writeToUart" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
     xTaskCreate(Task::writeStatusCommand , "writeStatus" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
-    xTaskCreate(Task::Task::pressButton , "pressButton" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
-#if TEMPERATURE_COUNT
+    #endif
+    #if TEMPERATURE_COUNT
     xTaskCreate(Task::temperature, "temperature", 2048, nullptr, 3, nullptr);
-#endif
+    #endif
 
 
 

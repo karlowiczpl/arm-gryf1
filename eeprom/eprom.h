@@ -2,6 +2,8 @@
 #define EEPROM_H
 
 #include "pico/stdlib.h"
+#include <vector>
+#include "../lib/pico-onewire/api/one_wire.h"
 
 #include "../setup/setup.hpp"
 
@@ -21,6 +23,8 @@ public:
         uint16_t shortPressTime[INPUTS_COUNT];
         uint8_t keyState[INPUTS_COUNT];
     } eepromData;
+
+    std::vector<One_wire> one_wires;
 
     void loadDataFromEeprom();
     void saveDataToEeprom();

@@ -5,12 +5,15 @@
 #include <hardware/uart.h>
 #include "../lib/pico-onewire/api/one_wire.h"
 
-class Communication {
+#include "../eeprom/eprom.h"
+#include "../komendy_AT/komendyAT.h"
 
+class Communication {
 
 public:
     static char* readDataFromUart(uart_inst_t* uart);
     static void sendDataToUart(uart_inst_t* uart , char* message);
+    static void oneWireTemperature();
 };
 
 

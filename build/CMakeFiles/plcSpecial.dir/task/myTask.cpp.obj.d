@@ -195,8 +195,11 @@ CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj: \
  /usr/arm-none-eabi/include/c++/13.2.1/istream \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/istream.tcc \
  /home/karol/CLionProjects/armGryf1/cpp/task/../communication/../lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/task/../communication/../eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/task/../communication/../eeprom/../lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/task/../communication/../eeprom/../setup/setup.hpp \
+ /home/karol/CLionProjects/armGryf1/cpp/task/../communication/../komendy_AT/komendyAT.h \
+ /home/karol/CLionProjects/armGryf1/cpp/task/../communication/../komendy_AT/../eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/task/../communication/../komendy_AT/../setup/setup.hpp \
  /home/karol/CLionProjects/armGryf1/cpp/task/../komendy_AT/checkPins.h \
- /home/karol/CLionProjects/armGryf1/cpp/task/../komendy_AT/../setup/setup.hpp \
- /home/karol/CLionProjects/armGryf1/cpp/task/../komendy_AT/komendyAT.h \
- /home/karol/CLionProjects/armGryf1/cpp/task/../komendy_AT/../eeprom/eprom.h \
- /home/karol/CLionProjects/armGryf1/cpp/task/../komendy_AT/../eeprom/../setup/setup.hpp
+ /home/karol/CLionProjects/armGryf1/cpp/task/../komendy_AT/../setup/setup.hpp

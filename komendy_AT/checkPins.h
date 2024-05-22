@@ -15,14 +15,23 @@ struct
     uint32_t inpTime[INPUTS_COUNT];
 }States;
 
+struct
+{
+    uint8_t oldState[INPUTS_COUNT] = {0};
+    uint32_t lastTime[INPUTS_COUNT] = {0};
+    bool enable[INPUTS_COUNT] = {false};
+}PushButton;
+
+
 class CheckPins {
 
 public:
 
-    static void checkInputPins(uint32_t time);
+    static void checkInputPins();
+    static void checkOutputPins();
     static void writeActualInputState();
     static void writeActualOutputState();
-    static void timerOfButtonPress(uint8_t time);
+    static void pushButton();
 };
 
 
