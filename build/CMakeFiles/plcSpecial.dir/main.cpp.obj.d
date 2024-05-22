@@ -189,4 +189,6 @@ CMakeFiles/plcSpecial.dir/main.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/setup/../lib/pico-onewire/api/one_wire.h \
  /home/karol/CLionProjects/armGryf1/cpp/task/myTask.h \
  /home/karol/CLionProjects/armGryf1/cpp/task/../lib/pico-onewire/api/one_wire.h \
- /home/karol/CLionProjects/armGryf1/cpp/task/../setup/setup.hpp
+ /home/karol/CLionProjects/armGryf1/cpp/task/../setup/setup.hpp \
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/../setup/setup.hpp

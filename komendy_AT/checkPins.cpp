@@ -1,7 +1,8 @@
 #include "checkPins.h"
 #include "komendyAT.h"
+#include "../task/myTask.h"
 
-void CheckPins::checkInputPins()
+void CheckPins::checkInputPins(uint32_t time)
 {
     for(uint8_t i = 0; i < INPUTS_COUNT; i++)
     {
@@ -9,10 +10,12 @@ void CheckPins::checkInputPins()
         {
             EepromStruct& eeprom = EepromStruct::getInstance();
             States.input[i] = gpio_get(HardwareInfo.inputs[i]);
+
             char fun[] = "I";
             char id[3];
             sprintf(id , "%d" , eeprom.eepromData.id);
             KomendyAT::sendCommandToUartTabble(nullptr , fun , States.input , INPUTS_COUNT , id);
+            vTaskDelay(20);
         }
     }
     for(uint8_t i = 0; i < OUTPUTS_COUNT; i++)
@@ -46,4 +49,20 @@ void CheckPins::writeActualOutputState()
     char id[3];
     sprintf(id , "%d" , eeprom.eepromData.id);
     KomendyAT::sendCommandToUartTabble(nullptr , fun , States.outputs , OUTPUTS_COUNT , id);
+}
+
+void CheckPins::timerOfButtonPress(uint8_t time)
+{
+    for(unsigned long i : States.inputsTime)
+    {
+
+//        if((time - i) < 4000)
+//        {
+//            printf("Zmienil sie stan\n");
+//            printf("%ld\n" , time - i);
+
+//        }
+        printf("Wartosc: %ld\n" , time - States.inputsTime[i]);
+
+    }
 }

@@ -32,7 +32,7 @@ void Task::writeToUart(void *pvParameters)
 {
     while (true)
     {
-        CheckPins::checkInputPins();
+        CheckPins::checkInputPins(time_us_32());
     }
 }
 void Task::writeStatusCommand(void *pvParameters)
@@ -74,5 +74,49 @@ void Task::temperature(void *pvParameters) {
     }
 }
 
+void Task::pressButton(void *pvParameters) {
+    EepromStruct& eeprom = EepromStruct::getInstance();
 
+    uint8_t oldState[INPUTS_COUNT] = {0};
+    uint32_t lastTime[INPUTS_COUNT] = {0};
+    bool enable[INPUTS_COUNT] = {false};
 
+    while (true)
+    {
+        for(uint8_t i = 0; i < INPUTS_COUNT; i++)
+        {
+            uint8_t currentState = gpio_get(HardwareInfo.inputs[i]);
+
+            if(currentState != oldState[i])
+            {
+                if(currentState == 1)
+                {
+                    lastTime[i] = time_us_32();
+                    enable[i] = true;
+                }
+                else
+                {
+                    if(us_to_ms(time_us_32() - lastTime[i]) > 30 && us_to_ms(time_us_32() - lastTime[i]) < eeprom.eepromData.shortPressTime[i])
+                    {
+                        char message[20];
+                        sprintf(message , "PS=%d,%d\n" , eeprom.eepromData.id , i + 1);
+                        Communication::sendDataToUart(uart0 , message);
+                        Communication::sendDataToUart(uart1 , message);
+                    }
+                    lastTime[i] = time_us_32();
+                    enable[i] = false;
+                }
+                oldState[i] = currentState;
+            }
+
+            if(us_to_ms(time_us_32() - lastTime[i]) > eeprom.eepromData.longPressTime[i] && enable[i] && lastTime[i] != 0)
+            {
+                char message[20];
+                sprintf(message , "PL=%d,%d\n" , eeprom.eepromData.id , i + 1);
+                Communication::sendDataToUart(uart0 , message);
+                Communication::sendDataToUart(uart1 , message);
+                enable[i] = false;
+            }
+        }
+    }
+}

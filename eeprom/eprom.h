@@ -3,6 +3,8 @@
 
 #include "pico/stdlib.h"
 
+#include "../setup/setup.hpp"
+
 class EepromStruct {
 public:
 
@@ -15,13 +17,16 @@ public:
     struct
     {
         uint8_t id;
-        uint8_t data[255];
+        uint16_t longPressTime[INPUTS_COUNT];
+        uint16_t shortPressTime[INPUTS_COUNT];
+        uint8_t keyState[INPUTS_COUNT];
     } eepromData;
-
-private:
 
     void loadDataFromEeprom();
     void saveDataToEeprom();
+
+private:
+
 
     EepromStruct() = default;
     ~EepromStruct() = default;

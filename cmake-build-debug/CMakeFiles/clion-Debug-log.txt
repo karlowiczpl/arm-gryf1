@@ -12,6 +12,6 @@ cyw43-driver available at /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/li
 Pico W Bluetooth build support available.
 lwIP available at /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/lwip
 mbedtls available at /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/lib/mbedtls
--- Configuring done (0.4s)
+-- Configuring done (0.7s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/karol/CLionProjects/armGryf1/cpp/cmake-build-debug

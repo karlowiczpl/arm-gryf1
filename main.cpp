@@ -5,20 +5,23 @@
 
 #include "setup/setup.hpp"
 #include "task/myTask.h"
+#include "eeprom/eprom.h"
 
 int main() {
 
     Task task;
     Setup::setup();
-
+    EepromStruct& eeprom = EepromStruct::getInstance();
+    eeprom.loadDataFromEeprom();
     stdio_init_all();
 
-    xTaskCreate(Task::readFromUart0 , "readFromUart0" , configMINIMAL_STACK_SIZE, nullptr , 1, nullptr);
-    xTaskCreate(Task::readFromUart1 , "readFromUart1" , configMINIMAL_STACK_SIZE, nullptr , 1, nullptr);
-    xTaskCreate(Task::writeToUart , "writeToUart" , configMINIMAL_STACK_SIZE, nullptr , 1, nullptr);
-    xTaskCreate(Task::writeStatusCommand , "writeStatus" , configMINIMAL_STACK_SIZE, nullptr , 1, nullptr);
+    xTaskCreate(Task::readFromUart0 , "readFromUart0" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
+    xTaskCreate(Task::readFromUart1 , "readFromUart1" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
+    xTaskCreate(Task::writeToUart , "writeToUart" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
+    xTaskCreate(Task::writeStatusCommand , "writeStatus" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
+    xTaskCreate(Task::Task::pressButton , "pressButton" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
 #if TEMPERATURE_COUNT
-    xTaskCreate(Task::temperature, "temperature", 2048, nullptr, 2, nullptr);
+    xTaskCreate(Task::temperature, "temperature", 2048, nullptr, 3, nullptr);
 #endif
 
 
@@ -80,4 +83,19 @@ int main() {
 //            std::cout<<uart_getc(uart0);
 //        }
 //    }
+//}
+
+
+//#include "iostream"
+//#include "pico/stdlib.h"
+//#include "stdio.h"
+//
+//uint8_t oldState = 0; // Zmienna do przechowywania poprzedniego stanu pinu
+//uint32_t lastTime = 0; // Zmienna do przechowywania czasu ostatniej zmiany stanu
+//
+//int main(void)
+//{
+//
+//
+//    return 0;
 //}

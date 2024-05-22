@@ -15,7 +15,12 @@ void EepromStruct::setId(uint8_t newId)
 
 void EepromStruct::loadDataFromEeprom()
 {
-
+    for(uint8_t i = 0; i < INPUTS_COUNT; i++)
+    {
+        eepromData.longPressTime[i] = 2000;
+        eepromData.shortPressTime[i] = 400;
+        eepromData.keyState[i] = 1;
+    }
 }
 
 void EepromStruct::saveDataToEeprom() {

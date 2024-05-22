@@ -14,8 +14,8 @@
 #define INPUTS { 10 , 11 , 12 , 13 , 14 };
 #define INPUTS_COUNT 5
 
-#define PWM_T { 20 , 21 , 22 };
-#define PWM_COUNT 3
+#define PWM_T { 20 , 21 , 22 , 26};
+#define PWM_COUNT 4
 
 #define TEMPERATURE { 15 , 16 , 17 , 18 , 19};
 #define TEMPERATURE_COUNT 5
