@@ -19,23 +19,23 @@ pico_sdk_init()
 
 #dodanie plików projektu
 add_executable(${PROJECT_NAME}
-        komendy_AT/komendyAT.cpp
-        komendy_AT/komendyAT.h
-        eeprom/eprom.cpp
-        eeprom/eprom.h
-        setup/setup.hpp
-        setup/setup.cpp
+        program_files/komendy_AT/komendyAT.cpp
+        program_files/komendy_AT/komendyAT.h
+        program_files/eeprom/eprom.cpp
+        program_files/eeprom/eprom.h
+        setup/hardware/setup.hpp
+        setup/hardware/setup.cpp
         main.cpp
-        communication/communication.cpp
-        communication/communication.h
-        komendy_AT/checkPins.cpp
-        komendy_AT/checkPins.h
-        task/myTask.cpp
-        task/myTask.h
-        komendy_AT/functions.cpp
-        komendy_AT/functions.h
-        komendy_AT/error.cpp
-        komendy_AT/error.h
+        program_files/communication/communication.cpp
+        program_files/communication/communication.h
+        program_files/komendy_AT/checkPins.cpp
+        program_files/komendy_AT/checkPins.h
+        program_files/task/myTask.cpp
+        program_files/task/myTask.h
+        setup/komendy_AT/functions.cpp
+        setup/komendy_AT/functions.h
+        program_files/komendy_AT/error.cpp
+        program_files/komendy_AT/error.h
 )
 
 #Utworzenie plików binarnych

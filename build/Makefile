@@ -303,30 +303,6 @@ komendy_AT/error.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.s
 .PHONY : komendy_AT/error.cpp.s
 
-komendy_AT/functions.obj: komendy_AT/functions.cpp.obj
-.PHONY : komendy_AT/functions.obj
-
-# target to build an object file
-komendy_AT/functions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj
-.PHONY : komendy_AT/functions.cpp.obj
-
-komendy_AT/functions.i: komendy_AT/functions.cpp.i
-.PHONY : komendy_AT/functions.i
-
-# target to preprocess a source file
-komendy_AT/functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.i
-.PHONY : komendy_AT/functions.cpp.i
-
-komendy_AT/functions.s: komendy_AT/functions.cpp.s
-.PHONY : komendy_AT/functions.s
-
-# target to generate assembly for a file
-komendy_AT/functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.s
-.PHONY : komendy_AT/functions.cpp.s
-
 komendy_AT/komendyAT.obj: komendy_AT/komendyAT.cpp.obj
 .PHONY : komendy_AT/komendyAT.obj
 
@@ -2143,29 +2119,53 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-setup/setup.obj: setup/setup.cpp.obj
-.PHONY : setup/setup.obj
+setup/hardware/setup.obj: setup/hardware/setup.cpp.obj
+.PHONY : setup/hardware/setup.obj
 
 # target to build an object file
-setup/setup.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj
-.PHONY : setup/setup.cpp.obj
+setup/hardware/setup.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj
+.PHONY : setup/hardware/setup.cpp.obj
 
-setup/setup.i: setup/setup.cpp.i
-.PHONY : setup/setup.i
+setup/hardware/setup.i: setup/hardware/setup.cpp.i
+.PHONY : setup/hardware/setup.i
 
 # target to preprocess a source file
-setup/setup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/setup.cpp.i
-.PHONY : setup/setup.cpp.i
+setup/hardware/setup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.i
+.PHONY : setup/hardware/setup.cpp.i
 
-setup/setup.s: setup/setup.cpp.s
-.PHONY : setup/setup.s
+setup/hardware/setup.s: setup/hardware/setup.cpp.s
+.PHONY : setup/hardware/setup.s
 
 # target to generate assembly for a file
-setup/setup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/setup.cpp.s
-.PHONY : setup/setup.cpp.s
+setup/hardware/setup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.s
+.PHONY : setup/hardware/setup.cpp.s
+
+setup/komendy_AT/functions.obj: setup/komendy_AT/functions.cpp.obj
+.PHONY : setup/komendy_AT/functions.obj
+
+# target to build an object file
+setup/komendy_AT/functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj
+.PHONY : setup/komendy_AT/functions.cpp.obj
+
+setup/komendy_AT/functions.i: setup/komendy_AT/functions.cpp.i
+.PHONY : setup/komendy_AT/functions.i
+
+# target to preprocess a source file
+setup/komendy_AT/functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.i
+.PHONY : setup/komendy_AT/functions.cpp.i
+
+setup/komendy_AT/functions.s: setup/komendy_AT/functions.cpp.s
+.PHONY : setup/komendy_AT/functions.s
+
+# target to generate assembly for a file
+setup/komendy_AT/functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.s
+.PHONY : setup/komendy_AT/functions.cpp.s
 
 task/myTask.obj: task/myTask.cpp.obj
 .PHONY : task/myTask.obj
@@ -2218,9 +2218,6 @@ help:
 	@echo "... komendy_AT/error.obj"
 	@echo "... komendy_AT/error.i"
 	@echo "... komendy_AT/error.s"
-	@echo "... komendy_AT/functions.obj"
-	@echo "... komendy_AT/functions.i"
-	@echo "... komendy_AT/functions.s"
 	@echo "... komendy_AT/komendyAT.obj"
 	@echo "... komendy_AT/komendyAT.i"
 	@echo "... komendy_AT/komendyAT.s"
@@ -2448,9 +2445,12 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... setup/setup.obj"
-	@echo "... setup/setup.i"
-	@echo "... setup/setup.s"
+	@echo "... setup/hardware/setup.obj"
+	@echo "... setup/hardware/setup.i"
+	@echo "... setup/hardware/setup.s"
+	@echo "... setup/komendy_AT/functions.obj"
+	@echo "... setup/komendy_AT/functions.i"
+	@echo "... setup/komendy_AT/functions.s"
 	@echo "... task/myTask.obj"
 	@echo "... task/myTask.i"
 	@echo "... task/myTask.s"

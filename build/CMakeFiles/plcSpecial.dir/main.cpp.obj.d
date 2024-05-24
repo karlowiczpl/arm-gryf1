@@ -141,7 +141,7 @@ CMakeFiles/plcSpecial.dir/main.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/boards/pico.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/../../../../../setup/FreeRTOSConfig.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/../../../../../../../setup/rtos/FreeRTOSConfig.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
@@ -171,7 +171,7 @@ CMakeFiles/plcSpecial.dir/main.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/FreeRTOS.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/../../../setup/FreeRTOSConfig.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/../../../setup/rtos/FreeRTOSConfig.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/projdefs.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/portable.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/deprecated_definitions.h \
@@ -180,16 +180,16 @@ CMakeFiles/plcSpecial.dir/main.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/mpu_wrappers.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/task.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/list.h \
- /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp \
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h \
  /usr/arm-none-eabi/include/c++/13.2.1/vector \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_uninitialized.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_vector.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_bvector.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/vector.tcc \
- /home/karol/CLionProjects/armGryf1/cpp/setup/../lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/../lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/../setup/hardware/setup.hpp \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/setup/hardware/setup.hpp \
  /home/karol/CLionProjects/armGryf1/cpp/task/myTask.h \
  /home/karol/CLionProjects/armGryf1/cpp/task/../lib/pico-onewire/api/one_wire.h \
- /home/karol/CLionProjects/armGryf1/cpp/task/../setup/setup.hpp \
- /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h \
- /home/karol/CLionProjects/armGryf1/cpp/eeprom/../lib/pico-onewire/api/one_wire.h \
- /home/karol/CLionProjects/armGryf1/cpp/eeprom/../setup/setup.hpp
+ /home/karol/CLionProjects/armGryf1/cpp/task/../setup/hardware/setup.hpp

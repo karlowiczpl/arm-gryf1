@@ -9,7 +9,7 @@ CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/por
  /usr/arm-none-eabi/include/_newlib_version.h \
  /usr/arm-none-eabi/include/sys/_intsup.h \
  /usr/arm-none-eabi/include/sys/_stdint.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/../../../setup/FreeRTOSConfig.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/../../../setup/rtos/FreeRTOSConfig.h \
  /usr/arm-none-eabi/include/assert.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/arm-none-eabi/include/newlib.h \
  /usr/arm-none-eabi/include/sys/config.h \
@@ -28,7 +28,7 @@ CMakeFiles/plcSpecial.dir/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/por
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/boards/pico.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/../../../../../setup/FreeRTOSConfig.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/../../../../../../../setup/rtos/FreeRTOSConfig.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \

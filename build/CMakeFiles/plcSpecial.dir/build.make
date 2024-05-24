@@ -97,19 +97,19 @@ CMakeFiles/plcSpecial.dir/eeprom/eprom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plcSpecial.dir/eeprom/eprom.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.cpp -o CMakeFiles/plcSpecial.dir/eeprom/eprom.cpp.s
 
-CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj: CMakeFiles/plcSpecial.dir/flags.make
-CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/setup/setup.cpp
-CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj -MF CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj.d -o CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj -c /home/karol/CLionProjects/armGryf1/cpp/setup/setup.cpp
+CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj: CMakeFiles/plcSpecial.dir/flags.make
+CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/setup/hardware/setup.cpp
+CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj -MF CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj.d -o CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj -c /home/karol/CLionProjects/armGryf1/cpp/setup/hardware/setup.cpp
 
-CMakeFiles/plcSpecial.dir/setup/setup.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plcSpecial.dir/setup/setup.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/CLionProjects/armGryf1/cpp/setup/setup.cpp > CMakeFiles/plcSpecial.dir/setup/setup.cpp.i
+CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/CLionProjects/armGryf1/cpp/setup/hardware/setup.cpp > CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.i
 
-CMakeFiles/plcSpecial.dir/setup/setup.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plcSpecial.dir/setup/setup.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/setup/setup.cpp -o CMakeFiles/plcSpecial.dir/setup/setup.cpp.s
+CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/setup/hardware/setup.cpp -o CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.s
 
 CMakeFiles/plcSpecial.dir/main.cpp.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/main.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/main.cpp
@@ -167,19 +167,19 @@ CMakeFiles/plcSpecial.dir/task/myTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plcSpecial.dir/task/myTask.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/task/myTask.cpp -o CMakeFiles/plcSpecial.dir/task/myTask.cpp.s
 
-CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj: CMakeFiles/plcSpecial.dir/flags.make
-CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.cpp
-CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj -MF CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj.d -o CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj -c /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.cpp
+CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj: CMakeFiles/plcSpecial.dir/flags.make
+CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/functions.cpp
+CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj: CMakeFiles/plcSpecial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/CLionProjects/armGryf1/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj -MF CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj.d -o CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj -c /home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/functions.cpp
 
-CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.cpp > CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.i
+CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/functions.cpp > CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.i
 
-CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.cpp -o CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.s
+CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/functions.cpp -o CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.s
 
 CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj: CMakeFiles/plcSpecial.dir/flags.make
 CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/error.cpp
@@ -1322,12 +1322,12 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_exception/excepti
 plcSpecial_OBJECTS = \
 "CMakeFiles/plcSpecial.dir/komendy_AT/komendyAT.cpp.obj" \
 "CMakeFiles/plcSpecial.dir/eeprom/eprom.cpp.obj" \
-"CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj" \
+"CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj" \
 "CMakeFiles/plcSpecial.dir/main.cpp.obj" \
 "CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj" \
 "CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.obj" \
 "CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj" \
-"CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj" \
+"CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj" \
 "CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj" \
 "CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
@@ -1416,12 +1416,12 @@ plcSpecial_EXTERNAL_OBJECTS =
 
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/komendy_AT/komendyAT.cpp.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/eeprom/eprom.cpp.obj
-plcSpecial.elf: CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj
+plcSpecial.elf: CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/main.cpp.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj
-plcSpecial.elf: CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj
+plcSpecial.elf: CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 plcSpecial.elf: CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj

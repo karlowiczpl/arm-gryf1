@@ -23,7 +23,7 @@ CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/boards/pico.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/../../../../../setup/FreeRTOSConfig.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/../../../../../../../setup/rtos/FreeRTOSConfig.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \

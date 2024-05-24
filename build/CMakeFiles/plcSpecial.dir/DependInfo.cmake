@@ -202,12 +202,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.cpp" "CMakeFiles/plcSpecial.dir/eeprom/eprom.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/eeprom/eprom.cpp.obj.d"
   "/home/karol/CLionProjects/armGryf1/cpp/komendy_AT/checkPins.cpp" "CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.obj.d"
   "/home/karol/CLionProjects/armGryf1/cpp/komendy_AT/error.cpp" "CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj.d"
-  "/home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.cpp" "CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj.d"
   "/home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.cpp" "CMakeFiles/plcSpecial.dir/komendy_AT/komendyAT.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/komendy_AT/komendyAT.cpp.obj.d"
   "/home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/source/one_wire.cpp" "CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/lib/pico-onewire/source/one_wire.cpp.obj.d"
   "/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/lib/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   "/home/karol/CLionProjects/armGryf1/cpp/main.cpp" "CMakeFiles/plcSpecial.dir/main.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/main.cpp.obj.d"
-  "/home/karol/CLionProjects/armGryf1/cpp/setup/setup.cpp" "CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/setup/setup.cpp.obj.d"
+  "/home/karol/CLionProjects/armGryf1/cpp/setup/hardware/setup.cpp" "CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj.d"
+  "/home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/functions.cpp" "CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj.d"
   "/home/karol/CLionProjects/armGryf1/cpp/task/myTask.cpp" "CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/task/myTask.cpp.obj.d"
   )
 

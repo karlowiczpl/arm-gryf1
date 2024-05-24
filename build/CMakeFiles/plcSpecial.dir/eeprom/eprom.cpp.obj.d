@@ -29,7 +29,7 @@ CMakeFiles/plcSpecial.dir/eeprom/eprom.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/boards/pico.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/../../../../../setup/FreeRTOSConfig.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/../../../../../../../setup/rtos/FreeRTOSConfig.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
@@ -107,7 +107,7 @@ CMakeFiles/plcSpecial.dir/eeprom/eprom.cpp.obj: \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/uses_allocator_args.h \
  /usr/arm-none-eabi/include/c++/13.2.1/tuple \
  /home/karol/CLionProjects/armGryf1/cpp/eeprom/../lib/pico-onewire/api/one_wire.h \
- /home/karol/CLionProjects/armGryf1/cpp/eeprom/../setup/setup.hpp \
+ /home/karol/CLionProjects/armGryf1/cpp/eeprom/../setup/hardware/setup.hpp \
  /usr/arm-none-eabi/include/c++/13.2.1/cstdio \
  /usr/arm-none-eabi/include/stdio.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
@@ -117,7 +117,7 @@ CMakeFiles/plcSpecial.dir/eeprom/eprom.cpp.obj: \
  /usr/arm-none-eabi/include/machine/_types.h \
  /usr/arm-none-eabi/include/sys/lock.h \
  /usr/arm-none-eabi/include/sys/stdio.h \
- /home/karol/CLionProjects/armGryf1/cpp/eeprom/../setup/../lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
  /usr/arm-none-eabi/include/c++/13.2.1/string \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stringfwd.h \

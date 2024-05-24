@@ -28,7 +28,7 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/boards/pico.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/boards/include/../../../../../setup/FreeRTOSConfig.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/../../../../../../../setup/rtos/FreeRTOSConfig.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
@@ -184,8 +184,17 @@ CMakeFiles/plcSpecial.dir/communication/communication.cpp.obj: \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_bvector.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/vector.tcc \
  /home/karol/CLionProjects/armGryf1/cpp/communication/../eeprom/../lib/pico-onewire/api/one_wire.h \
- /home/karol/CLionProjects/armGryf1/cpp/communication/../eeprom/../setup/setup.hpp \
- /home/karol/CLionProjects/armGryf1/cpp/communication/../eeprom/../setup/../lib/pico-onewire/api/one_wire.h \
+ /home/karol/CLionProjects/armGryf1/cpp/communication/../eeprom/../setup/hardware/setup.hpp \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h \
  /home/karol/CLionProjects/armGryf1/cpp/communication/../komendy_AT/komendyAT.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/map \
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_tree.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/ext/aligned_buffer.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/node_handle.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_map.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_multimap.h \
+ /usr/arm-none-eabi/include/c++/13.2.1/bits/erase_if.h \
  /home/karol/CLionProjects/armGryf1/cpp/communication/../komendy_AT/../eeprom/eprom.h \
- /home/karol/CLionProjects/armGryf1/cpp/communication/../komendy_AT/../setup/setup.hpp
+ /home/karol/CLionProjects/armGryf1/cpp/communication/../komendy_AT/../setup/hardware/setup.hpp \
+ /home/karol/CLionProjects/armGryf1/cpp/communication/../komendy_AT/error.h \
+ /home/karol/CLionProjects/armGryf1/cpp/communication/../komendy_AT/../setup/komendy_AT/functions.h
