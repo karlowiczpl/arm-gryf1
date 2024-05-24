@@ -25,7 +25,7 @@ add_executable(${PROJECT_NAME}
         program_files/eeprom/eprom.h
         setup/hardware/setup.hpp
         setup/hardware/setup.cpp
-        main.cpp
+        program_files/main.cpp
         program_files/communication/communication.cpp
         program_files/communication/communication.h
         program_files/komendy_AT/checkPins.cpp

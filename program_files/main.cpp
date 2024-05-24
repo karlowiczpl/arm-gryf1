@@ -3,8 +3,8 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
+#include "../setup/hardware/setup.hpp"
 #include "eeprom/eprom.h"
-#include "setup/hardware/setup.hpp"
 #include "task/myTask.h"
 
 int main() {
