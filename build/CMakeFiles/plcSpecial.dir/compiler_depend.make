@@ -550,12 +550,17 @@ CMakeFiles/plcSpecial.dir/komendy_AT/checkPins.cpp.obj: /home/karol/CLionProject
 CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj: /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/error.cpp \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
+  /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h \
+  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.h \
+  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h \
+  /home/karol/CLionProjects/armGryf1/cpp/communication/communication.h \
   /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h \
   /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp \
   /home/karol/CLionProjects/armGryf1/cpp/eeprom/eprom.h \
   /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h \
   /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp \
   /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/error.h \
+  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.h \
   /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.h \
   /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
   /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
@@ -622,6 +627,7 @@ CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj: /home/karol/CLionProjects/ar
   /usr/arm-none-eabi/include/c++/13.2.1/bits/cpp_type_traits.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/cxxabi_forced.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/cxxabi_init_exception.h \
+  /usr/arm-none-eabi/include/c++/13.2.1/bits/erase_if.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/exception.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/exception_defines.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/exception_ptr.h \
@@ -641,6 +647,7 @@ CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj: /home/karol/CLionProjects/ar
   /usr/arm-none-eabi/include/c++/13.2.1/bits/move.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/nested_exception.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/new_allocator.h \
+  /usr/arm-none-eabi/include/c++/13.2.1/bits/node_handle.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/ostream.tcc \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/ostream_insert.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/postypes.h \
@@ -657,7 +664,10 @@ CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj: /home/karol/CLionProjects/ar
   /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_iterator.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_iterator_base_funcs.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_iterator_base_types.h \
+  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_map.h \
+  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_multimap.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_pair.h \
+  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_tree.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_uninitialized.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_vector.h \
   /usr/arm-none-eabi/include/c++/13.2.1/bits/streambuf.tcc \
@@ -680,6 +690,7 @@ CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj: /home/karol/CLionProjects/ar
   /usr/arm-none-eabi/include/c++/13.2.1/debug/assertions.h \
   /usr/arm-none-eabi/include/c++/13.2.1/debug/debug.h \
   /usr/arm-none-eabi/include/c++/13.2.1/exception \
+  /usr/arm-none-eabi/include/c++/13.2.1/ext/aligned_buffer.h \
   /usr/arm-none-eabi/include/c++/13.2.1/ext/alloc_traits.h \
   /usr/arm-none-eabi/include/c++/13.2.1/ext/atomicity.h \
   /usr/arm-none-eabi/include/c++/13.2.1/ext/numeric_traits.h \
@@ -690,6 +701,7 @@ CMakeFiles/plcSpecial.dir/komendy_AT/error.cpp.obj: /home/karol/CLionProjects/ar
   /usr/arm-none-eabi/include/c++/13.2.1/iosfwd \
   /usr/arm-none-eabi/include/c++/13.2.1/iostream \
   /usr/arm-none-eabi/include/c++/13.2.1/istream \
+  /usr/arm-none-eabi/include/c++/13.2.1/map \
   /usr/arm-none-eabi/include/c++/13.2.1/new \
   /usr/arm-none-eabi/include/c++/13.2.1/ostream \
   /usr/arm-none-eabi/include/c++/13.2.1/pstl/pstl_config.h \
@@ -744,6 +756,7 @@ CMakeFiles/plcSpecial.dir/komendy_AT/functions.cpp.obj: /home/karol/CLionProject
   /home/karol/CLionProjects/armGryf1/cpp/lib/pico-onewire/api/one_wire.h \
   /home/karol/CLionProjects/armGryf1/cpp/setup/setup.hpp \
   /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/checkPins.h \
+  /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/error.h \
   /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.h \
   /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/komendyAT.h \
   /home/karol/CLionProjects/armGryf1/cpp/setup/FreeRTOSConfig.h \
@@ -5985,14 +5998,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/karol/CLionProjects/armGryf1/cpp/komendy_AT/functions.h:
 
-/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c:
-
-/usr/arm-none-eabi/include/sys/errno.h:
-
-/usr/arm-none-eabi/include/assert.h:
-
-/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h:
-
 /usr/arm-none-eabi/include/c++/13.2.1/bits/erase_if.h:
 
 /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_multimap.h:
@@ -6004,6 +6009,14 @@ generated/pico_base/pico/config_autogen.h:
 /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
 
 /usr/arm-none-eabi/include/c++/13.2.1/ext/aligned_buffer.h:
+
+/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c:
+
+/usr/arm-none-eabi/include/sys/errno.h:
+
+/usr/arm-none-eabi/include/assert.h:
+
+/home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h:
 
 /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
 

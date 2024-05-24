@@ -6,37 +6,87 @@
 #include "../communication/communication.h"
 #include "functions.h"
 
-void KomendyAT::parseMessage(const std::string& message , uart_inst_t* uart)
+bool isNumber(const std::string& s)
 {
-    std::string function, bar;
-    size_t position = message.find('=');
-    if (position != std::string::npos)
+  for(uint8_t i = 0; i < s.size(); i++)
+  {
+    if(!isdigit(s[i])) // Sprawdzamy, czy każdy znak to cyfra.
     {
-        function = message.substr(0, position);
-        bar = message.substr(position + 1);
-
-        std::vector<uint8_t> states;
-        size_t start = 0, end;
-        while ((end = bar.find(',', start)) != std::string::npos)
-        {
-            std::string token = bar.substr(start, end - start);
-            states.push_back(std::stoi(token));
-            start = end + 1;
-        }
-
-            std::string lastToken = bar.substr(start);
-            states.push_back(std::stoi(lastToken));
-            EepromStruct& eeprom = EepromStruct::getInstance();
-            if(states[0] == eeprom.eepromData.id)
-            {
-                Functions::withGoodId(function , {states , uart , "0"});
-            }
-            else
-            {
-                Functions::withBadId(function , {states , uart , message});
-            }
-
+      return false;
     }
+  }
+  return true;
+}
+
+
+void KomendyAT::parseMessage(const std::string& message, uart_inst_t* uart)
+{
+  uint8_t counter = 0;
+  uint8_t notCount = 0; // Zainicjowanie notCount na początku funkcji.
+  std::string function, bar;
+  size_t position = message.find('=');
+  if (position != std::string::npos)
+  {
+    function = message.substr(0, position);
+    bar = message.substr(position + 1);
+
+    static std::vector<std::string> cStates;
+    std::vector<uint8_t> states;
+    size_t start = 0, end;
+
+    while ((end = bar.find(',', start)) != std::string::npos)
+    {
+      std::string token = bar.substr(start, end - start);
+      if (!token.empty() )
+      {
+        if(isNumber(token))
+        {
+          cStates.push_back(token);
+          states.push_back(static_cast<uint8_t>(std::stoi(token)));
+        }
+        else
+        {
+          if(counter == 0)  notCount = 2;
+          else notCount = 5;
+        }
+        counter++;
+      }
+      start = end + 1;
+
+      if (bar.find(',', start) == std::string::npos)
+      {
+        break;
+      }
+    }
+
+    std::string lastToken = bar.substr(start);
+    if (!lastToken.empty())
+    {
+      if(isNumber(lastToken))
+      {
+        cStates.push_back(lastToken);
+        states.push_back(static_cast<uint8_t>(std::stoi(lastToken)));
+      }
+      else
+      {
+        if(counter == 0)  notCount = 2;
+        else notCount = 5;
+      }
+      counter++;
+    }
+
+
+    EepromStruct& eeprom = EepromStruct::getInstance();
+    if (states[0] == eeprom.eepromData.id)
+    {
+      Functions::withGoodId(function, {notCount, uart, "0", states});
+    }
+    else
+    {
+      Functions::withBadId(function, {notCount, uart, message, states});
+    }
+  }
+
 }
 //void KomendyAT::sendCommandToUartVector(uart_inst_t *uart, char *function, const std::vector<uint8_t>& states) {
 //    std::vector<char> message;

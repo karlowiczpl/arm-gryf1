@@ -84,17 +84,3 @@ int main() {
 //    }
 //}
 
-
-//#include "iostream"
-//#include "pico/stdlib.h"
-//#include "stdio.h"
-//
-//uint8_t oldState = 0; // Zmienna do przechowywania poprzedniego stanu pinu
-//uint32_t lastTime = 0; // Zmienna do przechowywania czasu ostatniej zmiany stanu
-//
-//int main(void)
-//{
-//
-//
-//    return 0;
-//}
