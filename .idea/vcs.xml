@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/RPIPicoOnboardNVS" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/RPIPicoOnboardNVS/build/_deps/cpputest-src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lib/RPIPicoOnboardNVS/lib/FreeRTOS-Kernel" vcs="Git" />
