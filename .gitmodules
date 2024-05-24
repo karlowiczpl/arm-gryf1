@@ -1,0 +1,6 @@
+[submodule "lib/pico-onewire"]
+	path = lib/pico-onewire
+	url = https://github.com/adamboardman/pico-onewire.git
+[submodule "lib/pico-sdk"]
+	path = lib/pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk.git
