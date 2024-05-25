@@ -11,14 +11,14 @@
   yay -S cmake 
 
 #### Kompilacja
-wejdz do lokalizacji pliku
+##### wejdz do lokalizacji pliku
   cd <lokalizacja>/arm-gryf1/
-utwórz folder na pliki kompilacyjne
+##### utwórz folder na pliki kompilacyjne
   mkdir build
-wejdz do tego folderu 
+##### wejdz do tego folderu 
   cd build
-zainicjuj cmake
+##### zainicjuj cmake
   cmake ..
-skompiluj 
+##### skompiluj 
   make
   
