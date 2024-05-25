@@ -118,83 +118,9 @@ CMakeFiles/plcSpecial.dir/program_files/eeprom/eprom.cpp.obj: \
  /usr/arm-none-eabi/include/sys/lock.h \
  /usr/arm-none-eabi/include/sys/stdio.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
- /usr/arm-none-eabi/include/c++/13.2.1/string \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/stringfwd.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/char_traits.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/postypes.h \
- /usr/arm-none-eabi/include/c++/13.2.1/cwchar \
- /usr/arm-none-eabi/include/wchar.h \
- /usr/arm-none-eabi/include/sys/_locale.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/localefwd.h \
- /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++locale.h \
- /usr/arm-none-eabi/include/c++/13.2.1/clocale \
- /usr/arm-none-eabi/include/locale.h \
- /usr/arm-none-eabi/include/c++/13.2.1/iosfwd \
- /usr/arm-none-eabi/include/c++/13.2.1/cctype \
- /usr/arm-none-eabi/include/ctype.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/ostream_insert.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/cxxabi_forced.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/basic_string.h \
- /usr/arm-none-eabi/include/c++/13.2.1/string_view \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/string_view.tcc \
- /usr/arm-none-eabi/include/c++/13.2.1/ext/string_conversions.h \
- /usr/arm-none-eabi/include/c++/13.2.1/cstdlib \
- /usr/arm-none-eabi/include/stdlib.h \
- /usr/arm-none-eabi/include/machine/stdlib.h \
- /usr/arm-none-eabi/include/alloca.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/std_abs.h \
- /usr/arm-none-eabi/include/c++/13.2.1/cerrno \
- /usr/arm-none-eabi/include/errno.h \
- /usr/arm-none-eabi/include/sys/errno.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/charconv.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/basic_string.tcc \
  /usr/arm-none-eabi/include/c++/13.2.1/cstring \
- /usr/arm-none-eabi/include/string.h /usr/arm-none-eabi/include/strings.h \
+ /usr/arm-none-eabi/include/string.h \
+ /usr/arm-none-eabi/include/sys/_locale.h \
+ /usr/arm-none-eabi/include/strings.h \
  /usr/arm-none-eabi/include/sys/string.h \
- /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/eeprom/../../program_files/communication/communication.h \
- /usr/arm-none-eabi/include/c++/13.2.1/iostream \
- /usr/arm-none-eabi/include/c++/13.2.1/ostream \
- /usr/arm-none-eabi/include/c++/13.2.1/ios \
- /usr/arm-none-eabi/include/c++/13.2.1/exception \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/exception_ptr.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/cxxabi_init_exception.h \
- /usr/arm-none-eabi/include/c++/13.2.1/typeinfo \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/nested_exception.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/ios_base.h \
- /usr/arm-none-eabi/include/c++/13.2.1/ext/atomicity.h \
- /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/gthr.h \
- /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/gthr-default.h \
- /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/atomic_word.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/locale_classes.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/locale_classes.tcc \
- /usr/arm-none-eabi/include/c++/13.2.1/system_error \
- /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/error_constants.h \
- /usr/arm-none-eabi/include/c++/13.2.1/stdexcept \
- /usr/arm-none-eabi/include/c++/13.2.1/streambuf \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/streambuf.tcc \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/basic_ios.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/locale_facets.h \
- /usr/arm-none-eabi/include/c++/13.2.1/cwctype \
- /usr/arm-none-eabi/include/wctype.h \
- /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/ctype_base.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/streambuf_iterator.h \
- /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/ctype_inline.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/locale_facets.tcc \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/basic_ios.tcc \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/ostream.tcc \
- /usr/arm-none-eabi/include/c++/13.2.1/istream \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/istream.tcc \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/eeprom/../../program_files/communication/../eeprom/eprom.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/eeprom/../../program_files/communication/../komendy_AT/komendyAT.h \
- /usr/arm-none-eabi/include/c++/13.2.1/map \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_tree.h \
- /usr/arm-none-eabi/include/c++/13.2.1/ext/aligned_buffer.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/node_handle.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_map.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_multimap.h \
- /usr/arm-none-eabi/include/c++/13.2.1/bits/erase_if.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/eeprom/../../program_files/communication/../komendy_AT/../eeprom/eprom.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/eeprom/../../program_files/communication/../komendy_AT/../../setup/hardware/setup.hpp \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/eeprom/../../program_files/communication/../komendy_AT/error.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/eeprom/../../program_files/communication/../komendy_AT/../../setup/komendy_AT/functions.h
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h

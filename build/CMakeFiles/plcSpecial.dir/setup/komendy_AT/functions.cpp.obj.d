@@ -211,10 +211,6 @@ CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/task.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/list.h \
  /home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/../../program_files/komendy_AT/../../setup/hardware/setup.hpp \
- /home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/../../program_files/komendy_AT/error.h \
- /home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/../../program_files/komendy_AT/komendyAT.h \
- /home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/../../program_files/eeprom//eprom.h \
- /home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/../hardware/setup.hpp \
  /home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/functions.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \

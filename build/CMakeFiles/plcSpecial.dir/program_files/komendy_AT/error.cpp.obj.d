@@ -191,7 +191,4 @@ CMakeFiles/plcSpecial.dir/program_files/komendy_AT/error.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../komendy_AT/komendyAT.h \
  /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../komendy_AT/../eeprom/eprom.h \
  /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../komendy_AT/../../setup/hardware/setup.hpp \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../komendy_AT/error.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../eeprom/eprom.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../../setup/hardware/setup.hpp \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/komendyAT.h
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../komendy_AT/error.h
