@@ -1,9 +1,5 @@
 #include "error.h"
-#include "../../communication/communication.h"
-#include "../../eeprom/eprom.h"
-#include "../../setup/hardware/setup.hpp"
-#include "../../setup/komendy_AT/functions.h"
-#include "komendyAT.h"
+#include "../communication/communication.h"
 
 bool error::checkCommand(Functions::STATE_T states, uint8_t function, uint8_t sizeOfStates, uint8_t range)
 {

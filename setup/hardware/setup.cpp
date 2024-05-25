@@ -2,7 +2,7 @@
 #include "hardware/pwm.h"
 #include "pico/stdlib.h"
 
-#include "../../eeprom/eprom.h"
+#include "../../program_files/eeprom/eprom.h"
 
 void Setup::setup()
 {
@@ -12,6 +12,8 @@ void Setup::setup()
     Setup::setupCommunication();
     Setup::setupInputs();
     Setup::setupPwm();
+
+    Setup::loadStatesFromEeprom();
 }
 
 void Setup::setupOutputs()
@@ -68,6 +70,17 @@ void Setup::setupCommunication()
         eeprom.one_wires.push_back(oneWire);
     }
 }
-
-
-
+void Setup::loadStatesFromEeprom()
+{
+  EepromStruct& eeprom = EepromStruct::getInstance();
+  eeprom.loadDataFromEeprom();
+  for(uint8_t i = 0; i < OUTPUTS_COUNT; i++)
+  {
+    gpio_put(HardwareInfo.outputs[i] , eeprom.eepromData.outputsStates[i]);
+  }
+//  eeprom.loadDataFromEeprom();
+//  for(uint8_t i = 0; i < PWM_COUNT; i++)
+//  {
+//    pwm_set_gpio_level(HardwareInfo.pwm[HardwareInfo.pwm[i]], ((eeprom.eepromData.pwmStates[i] * 255) / 100) * (eeprom.eepromData.pwmStates[i] * 255) / 100);
+//  }
+}

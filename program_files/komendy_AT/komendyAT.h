@@ -7,7 +7,7 @@
 #include "pico/stdlib.h"
 #include "map"
 
-#include "../../eeprom/eprom.h"
+#include "../eeprom/eprom.h"
 #include "../../setup/hardware/setup.hpp"
 #include "error.h"
 

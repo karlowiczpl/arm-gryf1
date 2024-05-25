@@ -2,11 +2,9 @@
 #include <vector>
 #include <cstdio>
 
-#include "../../communication/communication.h"
-#include "../../setup/komendy_AT/functions.h"
+#include "../communication/communication.h"
 #include "error.h"
 #include "komendyAT.h"
-#include <cstring>
 
 bool isNumber(const std::string& s)
 {

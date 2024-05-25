@@ -43,6 +43,7 @@ class Setup {
     static void setupInputs();
     static void setupPwm();
     static void setupCommunication();
+    static void loadStatesFromEeprom();
 
 public:
 

@@ -22,6 +22,8 @@ public:
         uint16_t longPressTime[INPUTS_COUNT];
         uint16_t shortPressTime[INPUTS_COUNT];
         uint8_t keyState[INPUTS_COUNT];
+        uint8_t outputsStates[OUTPUTS_COUNT];
+        uint8_t pwmStates[PWM_COUNT];
     } eepromData;
 
     std::vector<One_wire> one_wires;

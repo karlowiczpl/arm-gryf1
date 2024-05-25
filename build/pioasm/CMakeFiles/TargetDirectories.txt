@@ -1,0 +1,3 @@
+/home/karol/CLionProjects/armGryf1/cpp/build/pioasm/CMakeFiles/pioasm.dir
+/home/karol/CLionProjects/armGryf1/cpp/build/pioasm/CMakeFiles/edit_cache.dir
+/home/karol/CLionProjects/armGryf1/cpp/build/pioasm/CMakeFiles/rebuild_cache.dir

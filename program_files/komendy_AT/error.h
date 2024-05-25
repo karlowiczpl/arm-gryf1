@@ -1,5 +1,5 @@
-#ifndef PLCSPECIAL_ERROR_H
-#define PLCSPECIAL_ERROR_H
+#ifndef PLC_SPECIAL_ERROR_H
+#define PLC_SPECIAL_ERROR_H
 
 #include <iostream>
 #include <vector>
@@ -31,4 +31,4 @@ public:
 };
 
 
-#endif //PLCSPECIAL_ERROR_H
+#endif //PLC_SPECIAL_ERROR_H

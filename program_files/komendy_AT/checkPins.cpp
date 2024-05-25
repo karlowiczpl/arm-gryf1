@@ -1,5 +1,5 @@
 #include "checkPins.h"
-#include "../../communication/communication.h"
+#include "../communication/communication.h"
 #include "../task/myTask.h"
 #include "komendyAT.h"
 
@@ -15,8 +15,7 @@ void CheckPins::checkInputPins()
             char fun[] = "I";
             char id[3];
             sprintf(id , "%d" , eeprom.eepromData.id);
-            KomendyAT::sendCommandToUart(nullptr, fun, States.input,
-                                         INPUTS_COUNT, id);
+            KomendyAT::sendCommandToUart(nullptr, fun, States.input,INPUTS_COUNT, id);
             vTaskDelay(20);
         }
     }
@@ -35,8 +34,7 @@ void CheckPins::checkOutputPins()
             char fun[] = "O";
             char ids[3];
             sprintf(ids , "%d" , eeprom.eepromData.id);
-            KomendyAT::sendCommandToUart(nullptr, fun, States.outputs,
-                                         OUTPUTS_COUNT, ids);
+            KomendyAT::sendCommandToUart(nullptr, fun, States.outputs,OUTPUTS_COUNT, ids);
         }
     }
 }
@@ -65,7 +63,7 @@ void CheckPins::pushButton()
         uint8_t currentState = gpio_get(HardwareInfo.inputs[i]);
 
         if (currentState != PushButton.oldState[i]) {
-            if (currentState == 1) {
+            if (currentState == !eeprom.eepromData.keyState[i]) {
                 PushButton.lastTime[i] = time_us_32();
                 PushButton.enable[i] = true;
             } else {
@@ -83,7 +81,7 @@ void CheckPins::pushButton()
         }
 
         if (us_to_ms(time_us_32() - PushButton.lastTime[i]) > eeprom.eepromData.longPressTime[i] &&
-            PushButton.enable[i] && PushButton.lastTime[i] != 0) {
+            PushButton.enable[i] && PushButton.lastTime[i] != eeprom.eepromData.keyState[i]) {
             char message[20];
             sprintf(message, "PL=%d,%d\n", eeprom.eepromData.id, i + 1);
             Communication::sendDataToUart(uart0, message);

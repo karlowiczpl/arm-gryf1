@@ -27,6 +27,10 @@ public:
   static void ping(STATE_T state);
   static void setLed(STATE_T state);
   static void search(STATE_T state);
+  static void setDefault(STATE_T state);
+  static void setKey(STATE_T state);
+  static void resetGoodId(STATE_T state);
+  static void resetBadId(STATE_T state);
 
   static void badIdCommandDontExist(STATE_T state);
 };
