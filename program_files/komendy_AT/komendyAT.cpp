@@ -68,9 +68,15 @@ void KomendyAT::parseMessage(const std::string& message, uart_inst_t* uart)
       counter++;
     }
     EepromStruct& eeprom = EepromStruct::getInstance();
-    if (states[0] == eeprom.eepromData.id)
+    if (states[0] == eeprom.CommonEeprom.id)
     {
-      KomendyAT::withGoodId(function, {notCount, uart, "0", states});
+      if(message[0] == 'C' && message[1] == 'M')
+      {
+        KomendyAT::cmWithGoodId(function , {notCount , uart , message , states});
+      } else
+      {
+        KomendyAT::withGoodId(function, {notCount, uart, "0", states});
+      }
     }
     else
     {
@@ -162,5 +168,10 @@ void KomendyAT::withBadId(std::string& flag_name , Functions::STATE_T state) {
     Functions::badIdCommandDontExist(state);
   }
 }
-
-
+void KomendyAT::cmWithGoodId(std::string &flag_name, Functions::STATE_T state)
+{
+  auto it = cmGoodIdMap.find(flag_name);
+  if (it != cmGoodIdMap.end()) {
+    if(error::checkCommand(state , it->second.second.functionNumber ,it->second.second.sizeOfFunction , it->second.second.functionRange))   it->second.first(state);
+  }
+}

@@ -2,7 +2,6 @@
 #include <cstring>
 
 #include "communication.h"
-#include "../komendy_AT/komendyAT.h"
 
 char* Communication::readDataFromUart(uart_inst_t* uart)
 {
@@ -40,7 +39,7 @@ void Communication::oneWireTemperature()
         {
             eeprom.one_wires[i].convert_temperature(address , true , false);
             char id[3];
-            sprintf(id , "%d" , eeprom.eepromData.id);
+            sprintf(id , "%d" , eeprom.CommonEeprom.id);
             kom.sendCommandTemperature(eeprom.one_wires[i].temperature(address) , id , i);
         }
     }

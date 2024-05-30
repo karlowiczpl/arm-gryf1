@@ -166,6 +166,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/plcSpecial.dir/program_files/task/myTask.cpp.obj.d"
   "CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj"
   "CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj.d"
+  "CMakeFiles/plcSpecial.dir/setup/komendy_AT/commands.cpp.obj"
+  "CMakeFiles/plcSpecial.dir/setup/komendy_AT/commands.cpp.obj.d"
   "CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj"
   "CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj.d"
   "plcSpecial.elf"

@@ -2167,6 +2167,30 @@ setup/hardware/setup.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.s
 .PHONY : setup/hardware/setup.cpp.s
 
+setup/komendy_AT/commands.obj: setup/komendy_AT/commands.cpp.obj
+.PHONY : setup/komendy_AT/commands.obj
+
+# target to build an object file
+setup/komendy_AT/commands.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/komendy_AT/commands.cpp.obj
+.PHONY : setup/komendy_AT/commands.cpp.obj
+
+setup/komendy_AT/commands.i: setup/komendy_AT/commands.cpp.i
+.PHONY : setup/komendy_AT/commands.i
+
+# target to preprocess a source file
+setup/komendy_AT/commands.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/komendy_AT/commands.cpp.i
+.PHONY : setup/komendy_AT/commands.cpp.i
+
+setup/komendy_AT/commands.s: setup/komendy_AT/commands.cpp.s
+.PHONY : setup/komendy_AT/commands.s
+
+# target to generate assembly for a file
+setup/komendy_AT/commands.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plcSpecial.dir/build.make CMakeFiles/plcSpecial.dir/setup/komendy_AT/commands.cpp.s
+.PHONY : setup/komendy_AT/commands.cpp.s
+
 setup/komendy_AT/functions.obj: setup/komendy_AT/functions.cpp.obj
 .PHONY : setup/komendy_AT/functions.obj
 
@@ -2451,6 +2475,9 @@ help:
 	@echo "... setup/hardware/setup.obj"
 	@echo "... setup/hardware/setup.i"
 	@echo "... setup/hardware/setup.s"
+	@echo "... setup/komendy_AT/commands.obj"
+	@echo "... setup/komendy_AT/commands.i"
+	@echo "... setup/komendy_AT/commands.s"
 	@echo "... setup/komendy_AT/functions.obj"
 	@echo "... setup/komendy_AT/functions.i"
 	@echo "... setup/komendy_AT/functions.s"

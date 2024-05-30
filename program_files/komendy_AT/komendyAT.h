@@ -25,9 +25,11 @@ public:
 
   static std::map<std::string, std::pair<enable_fun_ptr, Functions::ErrorStruct>> goodIdMap;
   static std::map<std::string, std::pair<enable_fun_ptr, Functions::ErrorStruct>> badIdMap;
+  static std::map<std::string, std::pair<enable_fun_ptr, Functions::ErrorStruct>> cmGoodIdMap;
 
   static void withGoodId(std::string& flag_name , Functions::STATE_T state);
   static void withBadId(std::string& flag_name, Functions::STATE_T state);
+  static void cmWithGoodId(std::string& flag_name , Functions::STATE_T state);
   static void sendCommandToUart(uart_inst_t *uart, char *function, uint8_t* states , uint8_t sizeOfStates , char* id);
   void sendCommandTemperature(float temp , char* id, uint8_t pin);
   static void parseMessage(const std::string& message , uart_inst_t* uart);

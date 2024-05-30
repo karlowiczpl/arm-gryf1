@@ -7,6 +7,11 @@
 
 #include "../../setup/hardware/setup.hpp"
 
+enum class commandFunction
+{
+  setOut = 1
+};
+
 struct
 {
     uint8_t input[INPUTS_COUNT];

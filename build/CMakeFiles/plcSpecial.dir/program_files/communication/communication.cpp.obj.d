@@ -184,7 +184,8 @@ CMakeFiles/plcSpecial.dir/program_files/communication/communication.cpp.obj: \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_bvector.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/vector.tcc \
  /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../eeprom/../../setup/hardware/setup.hpp \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../komendy_AT/komendyAT.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../eeprom/../../setup/komendy_AT/commands.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../eeprom/../../setup/komendy_AT/functions.h \
  /usr/arm-none-eabi/include/c++/13.2.1/map \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_tree.h \
  /usr/arm-none-eabi/include/c++/13.2.1/ext/aligned_buffer.h \
@@ -192,7 +193,21 @@ CMakeFiles/plcSpecial.dir/program_files/communication/communication.cpp.obj: \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_map.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_multimap.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/erase_if.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../komendy_AT/../eeprom/eprom.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../komendy_AT/../../setup/hardware/setup.hpp \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../komendy_AT/error.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../komendy_AT/../../setup/komendy_AT/functions.h
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../eeprom/../../setup/komendy_AT/../../setup/hardware/setup.hpp \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../eeprom/../../setup/komendy_AT/../../program_files/komendy_AT/komendyAT.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../eeprom/../../setup/komendy_AT/../../program_files/komendy_AT/../eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../eeprom/../../setup/komendy_AT/../../program_files/komendy_AT/../../setup/hardware/setup.hpp \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../eeprom/../../setup/komendy_AT/../../program_files/komendy_AT/error.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../eeprom/../../setup/komendy_AT/../../program_files/komendy_AT/../../setup/komendy_AT/functions.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../eeprom/../../setup/komendy_AT/../../program_files/eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/FreeRTOS.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/../../../setup/rtos/FreeRTOSConfig.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/projdefs.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/portable.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/deprecated_definitions.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/mpu_wrappers.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/task.h \
+ /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/list.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/communication/../komendy_AT/komendyAT.h

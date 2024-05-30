@@ -208,6 +208,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/karol/CLionProjects/armGryf1/cpp/program_files/main.cpp" "CMakeFiles/plcSpecial.dir/program_files/main.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/program_files/main.cpp.obj.d"
   "/home/karol/CLionProjects/armGryf1/cpp/program_files/task/myTask.cpp" "CMakeFiles/plcSpecial.dir/program_files/task/myTask.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/program_files/task/myTask.cpp.obj.d"
   "/home/karol/CLionProjects/armGryf1/cpp/setup/hardware/setup.cpp" "CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/setup/hardware/setup.cpp.obj.d"
+  "/home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/commands.cpp" "CMakeFiles/plcSpecial.dir/setup/komendy_AT/commands.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/setup/komendy_AT/commands.cpp.obj.d"
   "/home/karol/CLionProjects/armGryf1/cpp/setup/komendy_AT/functions.cpp" "CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj" "gcc" "CMakeFiles/plcSpecial.dir/setup/komendy_AT/functions.cpp.obj.d"
   )
 

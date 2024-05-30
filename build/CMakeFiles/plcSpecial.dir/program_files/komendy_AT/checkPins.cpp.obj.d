@@ -1,6 +1,5 @@
 CMakeFiles/plcSpecial.dir/program_files/komendy_AT/checkPins.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/checkPins.cpp \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/checkPins.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -59,6 +58,7 @@ CMakeFiles/plcSpecial.dir/program_files/komendy_AT/checkPins.cpp.obj: \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/checkPins.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/FreeRTOS.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/../../../setup/rtos/FreeRTOSConfig.h \
  /home/karol/CLionProjects/armGryf1/cpp/lib/FreeRTOS-Kernel/include/projdefs.h \
@@ -192,7 +192,8 @@ CMakeFiles/plcSpecial.dir/program_files/komendy_AT/checkPins.cpp.obj: \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/istream.tcc \
  /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../eeprom/eprom.h \
  /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../eeprom/../../setup/hardware/setup.hpp \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../komendy_AT/komendyAT.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../eeprom/../../setup/komendy_AT/commands.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../eeprom/../../setup/komendy_AT/functions.h \
  /usr/arm-none-eabi/include/c++/13.2.1/map \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_tree.h \
  /usr/arm-none-eabi/include/c++/13.2.1/ext/aligned_buffer.h \
@@ -200,10 +201,14 @@ CMakeFiles/plcSpecial.dir/program_files/komendy_AT/checkPins.cpp.obj: \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_map.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/stl_multimap.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/erase_if.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../komendy_AT/../eeprom/eprom.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../komendy_AT/../../setup/hardware/setup.hpp \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../komendy_AT/error.h \
- /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../komendy_AT/../../setup/komendy_AT/functions.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../eeprom/../../setup/komendy_AT/../../setup/hardware/setup.hpp \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../eeprom/../../setup/komendy_AT/../../program_files/komendy_AT/komendyAT.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../eeprom/../../setup/komendy_AT/../../program_files/komendy_AT/../eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../eeprom/../../setup/komendy_AT/../../program_files/komendy_AT/../../setup/hardware/setup.hpp \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../eeprom/../../setup/komendy_AT/../../program_files/komendy_AT/error.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../eeprom/../../setup/komendy_AT/../../program_files/komendy_AT/../../setup/komendy_AT/functions.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../eeprom/../../setup/komendy_AT/../../program_files/eeprom/eprom.h \
+ /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../communication/../komendy_AT/komendyAT.h \
  /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../task/myTask.h \
  /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/../task/../../setup/hardware/setup.hpp \
  /home/karol/CLionProjects/armGryf1/cpp/program_files/komendy_AT/komendyAT.h

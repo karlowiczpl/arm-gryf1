@@ -5,7 +5,6 @@ cmake_minimum_required(VERSION 3.12)
 SET(PICO_SDK_PATH ${CMAKE_CURRENT_SOURCE_DIR}/lib/pico-sdk)
 include(${PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
-
 SET(FREERTOS_KERNEL_PATH ${CMAKE_CURRENT_SOURCE_DIR}/lib/FreeRTOS-Kernel)
 include(${FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
 
@@ -36,6 +35,8 @@ add_executable(${PROJECT_NAME}
         setup/komendy_AT/functions.h
         program_files/komendy_AT/error.cpp
         program_files/komendy_AT/error.h
+        setup/komendy_AT/commands.cpp
+        setup/komendy_AT/commands.h
 )
 
 #Utworzenie plików binarnych

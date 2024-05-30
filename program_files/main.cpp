@@ -8,8 +8,8 @@ int main() {
   Setup::setup();
 
 
-  xTaskCreate(Task::readFromUart0 , "readFromUart0" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
-  xTaskCreate(Task::readFromUart1 , "readFromUart1" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
+  xTaskCreate(Task::readFromUart0 , "readFromUart0" , 2048, nullptr , 2, nullptr);
+  xTaskCreate(Task::readFromUart1 , "readFromUart1" , 2048, nullptr , 2, nullptr);
 #if INPUTS_COUNT || OUTPUTS_COUNT
   xTaskCreate(Task::writeToUart , "writeToUart" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);
   xTaskCreate(Task::writeStatusCommand , "writeStatus" , configMINIMAL_STACK_SIZE, nullptr , 2, nullptr);

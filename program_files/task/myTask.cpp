@@ -36,7 +36,7 @@ void Task::writeToUart(void *pvParameters)
 void Task::writeStatusCommand(void *pvParameters)
 {
   EepromStruct& eeprom = EepromStruct::getInstance();
-  vTaskDelay(eeprom.eepromData.id);
+  vTaskDelay(eeprom.CommonEeprom.id);
   while (true)
   {
 #if OUTPUTS_COUNT

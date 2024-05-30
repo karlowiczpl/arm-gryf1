@@ -6,6 +6,15 @@
 #include <map>
 #include "pico/stdlib.h"
 #include "hardware/uart.h"
+#include "../../setup/hardware/setup.hpp"
+
+enum class InputFunctions
+{
+  setOut = 1,
+  mDelay = (OUTPUTS_COUNT * 3) + 1,
+  setPwm = mDelay + 100,
+  trigger = setPwm + 10 * PWM_COUNT,
+};
 
 class Functions {
 public:
@@ -31,6 +40,12 @@ public:
   static void setKey(STATE_T state);
   static void resetGoodId(STATE_T state);
   static void resetBadId(STATE_T state);
+  static void rgb(STATE_T state);
+/*
+ * CM+SetOut=ID,typ(wejscie = 0/wyjscie = 0),numer,typ(toogle\takiesamo)
+ *
+ *
+ */
 
   static void badIdCommandDontExist(STATE_T state);
 };

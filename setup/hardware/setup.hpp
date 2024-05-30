@@ -14,22 +14,14 @@
 #define INPUTS { 10 , 11 , 12 , 13 , 14 };
 #define INPUTS_COUNT 5
 
-#define PWM_T { 20 , 21 , 22 , 26};
-#define PWM_COUNT 4
+#define PWM_T { 20 , 21 , 22 };
+#define PWM_COUNT 3
+
+#define RGB {}
+#define RGB_COUNT 0
 
 #define TEMPERATURE { 15 , 16 , 17 , 18 , 19};
 #define TEMPERATURE_COUNT 5
-
-struct
-{
-    uint8_t outputs[OUTPUTS_COUNT] = OUTPUTS;
-    uint8_t pwm[PWM_COUNT] = PWM_T;
-    uint8_t temperature[TEMPERATURE_COUNT] = TEMPERATURE;
-    uint8_t inputs[INPUTS_COUNT] = INPUTS;
-}HardwareInfo;
-
-class Setup {
-
 
 #define UART0_TX_PIN 0
 #define UART0_RX_PIN 1
@@ -38,12 +30,43 @@ class Setup {
 
 #define BAUD_RATE 9600
 
+struct
+{
+#if OUTPUTS_COUNT
+  uint8_t outputs[OUTPUTS_COUNT] = OUTPUTS;
+#endif
+#if PWM_COUNT
+  uint8_t pwm[PWM_COUNT] = PWM_T;
+#endif
+#if TEMPERATURE_COUNT
+  uint8_t temperature[TEMPERATURE_COUNT] = TEMPERATURE;
+#endif
+#if INPUTS_COUNT
+  uint8_t inputs[INPUTS_COUNT] = INPUTS;
+#endif
+//#if RGB_COUNT
+  uint8_t rgb[RGB_COUNT][3] = RGB;
+//#endif
+}HardwareInfo;
 
-    static void setupOutputs();
-    static void setupInputs();
-    static void setupPwm();
-    static void setupCommunication();
-    static void loadStatesFromEeprom();
+class Setup {
+
+#if OUTPUTS_COUNT
+  static void setupOutputs();
+#endif
+#if INPUTS_COUNT
+  static void setupInputs();
+#endif
+#if PWM_COUNT
+  static void setupPwm();
+#endif
+  static void setupCommunication();
+//#if RGB_COUNT
+  static void setupRGB();
+//#endif
+#if INPUTS_COUNT || OUTPUTS_COUNT || PWM_COUNT || RGB_COUNT
+  static void loadStatesFromEeprom();
+#endif
 
 public:
 
