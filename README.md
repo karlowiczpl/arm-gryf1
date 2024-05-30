@@ -1,6 +1,7 @@
 ## Program do sterownika plc bazowanego na raspberry pi pico
 
 ### Instalacja na linux arch
+
 ```bash
 git clone --recurse-submodules https://github.com/karlowiczpl/arm-gryf1.git
 ````
@@ -19,4 +20,3 @@ git clone --recurse-submodules https://github.com/karlowiczpl/arm-gryf1.git
   cmake ..
   make
 ```
-  

@@ -1,0 +1,10 @@
+//
+// Created by karol on 26.05.24.
+//
+
+#ifndef PLCSPECIAL_SETUP_KOMENDY_AT_COMMANDS_H_
+#define PLCSPECIAL_SETUP_KOMENDY_AT_COMMANDS_H_
+
+class commands {};
+
+#endif // PLCSPECIAL_SETUP_KOMENDY_AT_COMMANDS_H_
